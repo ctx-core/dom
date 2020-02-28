@@ -39,9 +39,10 @@ export function _dom2(selector, parent?:HTMLElement) {
  * @param {HTMLElement=} parent
  * @returns {NodeList} a NodeList of the HTMLElements matching the selector
  */
-export function _a1__dom(selector, parent?) {
+export function _dom_a1(selector, parent?) {
 	return (parent || document).querySelectorAll(selector)
 }
+export const _a1__dom = _dom_a1
 export const __dom = _a1__dom
 export const _node_list__dom = __dom
 export const _NL__dom = __dom
