@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "5.12.20",
+	"version": "5.13.0",
 	"description": "ctx-core dom",
 	"main": "lib.js",
 	"module": "lib.js",
