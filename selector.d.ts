@@ -1,7 +1,9 @@
+/// <reference types="node" />
 export declare function _has__dom(): boolean;
 export declare const has__dom: typeof _has__dom;
 export declare function _no__dom(): boolean;
 export declare const no__dom: typeof _no__dom;
+export declare function _global(): (Window & typeof globalThis) | NodeJS.Global;
 export declare function _if__has__dom(fn: any): (...args: any[]) => any;
 export declare function _if__no__dom(fn: any): (...args: any[]) => any;
 /**
