@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "5.13.6",
+	"version": "5.13.7",
 	"description": "ctx-core dom",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -30,11 +30,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/data": "^1.1.46",
-		"@ctx-core/html": "^6.1.75",
+		"@ctx-core/data": "^1.1.47",
+		"@ctx-core/html": "^6.1.76",
 		"@ctx-core/logger": "^3.1.14",
-		"@ctx-core/object": "^8.0.9",
-		"@ctx-core/store": "^13.1.26"
+		"@ctx-core/object": "^8.0.10",
+		"@ctx-core/store": "^13.1.27"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.3"
