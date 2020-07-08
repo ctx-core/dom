@@ -23,3 +23,4 @@ export * from './location';
 export * from './position';
 export * from './scroll';
 export * from './selector';
+export * from './store';
