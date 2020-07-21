@@ -1,14 +1,14 @@
 export function _has__dom() {
 	return typeof window === 'object'
 }
-export const has__dom = _has__dom
+export const has__dom = _has__dom()
 export function _no__dom() {
 	return typeof window === 'undefined'
 }
-export const no__dom = _no__dom
+export const no__dom = _no__dom()
 export function _global() {
   return (
-  	has__dom()
+  	_has__dom()
 		? window
 		: global
 	)
