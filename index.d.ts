@@ -3,7 +3,6 @@ export * from './bcr';
 export * from './class';
 export * from './element';
 export * from './event';
-export * from './lib';
 export * from './location';
 export * from './position';
 export * from './scroll';
