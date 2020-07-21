@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "5.13.42",
+	"version": "6.0.0",
 	"description": "ctx-core dom",
 	"main": "./index.js",
 	"module": "./index.js",
