@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "6.0.17",
+	"version": "6.0.18",
 	"description": "ctx-core dom",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,11 +30,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/data": "^1.1.71",
-		"@ctx-core/html": "^6.1.110",
-		"@ctx-core/logger": "^3.1.21",
-		"@ctx-core/object": "^9.0.11",
-		"@ctx-core/store": "^16.0.14"
+		"@ctx-core/data": "^1.1.72",
+		"@ctx-core/html": "^6.1.111",
+		"@ctx-core/logger": "^3.1.22",
+		"@ctx-core/object": "^9.0.12",
+		"@ctx-core/store": "^16.0.15"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.7"
