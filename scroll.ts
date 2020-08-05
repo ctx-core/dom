@@ -1,5 +1,6 @@
-import { _dom, _no__dom } from './selector'
 import { log } from '@ctx-core/logger'
+import { _no__dom } from './_no__dom'
+import { _dom } from './_dom'
 const logPrefix = '@ctx-core/dom/scroll'
 /**
  * Scroll to the top of the parentElement

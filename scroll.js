@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.__click__anchor__scroll = exports.scrollIntoView__child__collection = exports.anchor__scroll = exports.scrollTop = void 0;
-const selector_1 = require("./selector");
 const logger_1 = require("@ctx-core/logger");
+const _no__dom_1 = require("./_no__dom");
+const _dom_1 = require("./_dom");
 const logPrefix = '@ctx-core/dom/scroll';
 /**
  * Scroll to the top of the parentElement
@@ -12,7 +13,7 @@ const logPrefix = '@ctx-core/dom/scroll';
  */
 function scrollTop(el, scrollWindow = true) {
     logger_1.log(`${logPrefix}|scrollTop`);
-    if (selector_1._no__dom())
+    if (_no__dom_1._no__dom())
         return el;
     if (scrollWindow)
         window.scrollTo(0, 0);
@@ -24,7 +25,7 @@ function scrollTop(el, scrollWindow = true) {
 }
 exports.scrollTop = scrollTop;
 function anchor__scroll(href, root) {
-    const target__href = selector_1._dom(href, root);
+    const target__href = _dom_1._dom(href, root);
     if (target__href) {
         target__href.scrollIntoView();
         window.location.hash = href;
