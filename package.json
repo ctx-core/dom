@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "6.0.20",
+	"version": "6.0.21",
 	"description": "ctx-core dom",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -31,7 +31,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/data": "^1.1.72",
-		"@ctx-core/html": "^6.1.112",
+		"@ctx-core/html": "^6.1.113",
 		"@ctx-core/logger": "^3.1.22",
 		"@ctx-core/object": "^9.0.12",
 		"@ctx-core/store": "^16.0.15"
