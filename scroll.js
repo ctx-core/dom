@@ -1,7 +1,5 @@
-import { log } from '@ctx-core/logger';
-import { _no__dom } from './_no__dom';
+import { no__dom } from './no__dom';
 import { _dom } from './_dom';
-const logPrefix = '@ctx-core/dom/scroll';
 /**
  * Scroll to the top of the parentElement
  * @param {Node} el
@@ -9,8 +7,7 @@ const logPrefix = '@ctx-core/dom/scroll';
  * @returns {Node}
  */
 export function scrollTop(el, scrollWindow = true) {
-    log(`${logPrefix}|scrollTop`);
-    if (_no__dom())
+    if (no__dom)
         return el;
     if (scrollWindow)
         window.scrollTo(0, 0);
@@ -40,7 +37,6 @@ export function scrollIntoView__child__collection(parent, child) {
     }
 }
 export function __click__anchor__scroll(event, root) {
-    log(`${logPrefix}|__click__anchor__scroll`, event);
     event.preventDefault();
     const { currentTarget } = event;
     const href = currentTarget.getAttribute('href');

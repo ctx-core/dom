@@ -1,7 +1,4 @@
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/dom'
 export function offset(el) {
-	log(`${logPrefix}|offset`)
 	let top = 0
 	let left = 0
 	do {

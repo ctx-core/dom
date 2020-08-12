@@ -1,6 +1,4 @@
 import { assign } from '@ctx-core/object'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/dom/url'
 export function _hostname() {
 	return typeof window === 'object' ? window.location.hostname : null
 }
@@ -8,7 +6,6 @@ export function _hostname() {
  * Remove hash from `window.location.href` without refreshing the page
  */
 export function empty__location__window() {
-	log(`${logPrefix}|empty__location__window`)
 	window.location.replace('#')
 	if (typeof window.history.replaceState == 'function') {
 		history.replaceState({}, '', window.location.href.slice(0, -1))
@@ -28,7 +25,6 @@ export function empty__location__window() {
  * })
  */
 export function _query__hash__location(ctx__transform) {
-	log(`${logPrefix}|$query__hash__location`)
 	ctx__transform = assign({
 		row_id: value=>parseFloat(value)
 	}, ctx__transform)

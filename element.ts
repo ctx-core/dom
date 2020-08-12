@@ -1,5 +1,3 @@
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/dom/element'
 /**
  * The constructor for DOM element name__element
  * @param {string} name__element
@@ -9,7 +7,6 @@ export function constructor__element(name__element) {
 	return document.createElement(name__element).constructor
 }
 export function check__element(el) {
-	log(`${logPrefix}|check__element`)
 	const { checked } = el
 	if (!checked) {
 		el.checked = true
