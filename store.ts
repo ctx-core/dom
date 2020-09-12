@@ -4,7 +4,7 @@ import { subscribe__debug } from '@ctx-core/store'
 import { _b, assign, clone } from '@ctx-core/object'
 import { _h1__present__a1 } from '@ctx-core/data'
 import { _class } from '@ctx-core/html'
-import { falsy } from '@ctx-core/function'
+import type { falsy } from '@ctx-core/function'
 export interface Writable__scrollY__window extends Writable<falsy|number> {
 	reset__scrollY__window:()=>void
 }

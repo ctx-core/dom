@@ -1,5 +1,5 @@
 import { Writable } from 'svelte/store';
-import { falsy } from '@ctx-core/function';
+import type { falsy } from '@ctx-core/function';
 export interface Writable__scrollY__window extends Writable<falsy | number> {
     reset__scrollY__window: () => void;
 }
