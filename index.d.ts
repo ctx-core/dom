@@ -22,4 +22,3 @@ export * from './matches';
 export * from './no__dom';
 export * from './position';
 export * from './scroll';
-export * from './store';
