@@ -6,4 +6,4 @@
  * @return {Boolean}
  * @api public
  */
-export declare function matches(el: any, selector: any): boolean;
+export declare function matches(el: any, selector: any): true | undefined;

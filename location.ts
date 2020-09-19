@@ -1,5 +1,6 @@
 import { assign } from '@ctx-core/object'
-export function _hostname() {
+import type { maybe_null } from '@ctx-core/function'
+export function _hostname(): maybe_null<string> {
 	return typeof window === 'object' ? window.location.hostname : null
 }
 /**
@@ -12,13 +13,7 @@ export function empty__location__window() {
 	}
 }
 /**
- * The ctx from the query params in `window.location.hash` formatted as a url
- * @typedef {ctx} query__hash__location
- */
-/**
  * Returns an query__hash__location
- * @param {Object.<string,function>} ctx__transform- Transform Functions for the `window.location.anchor` query params
- * @returns {query__hash__location}
  * @example
  * $query__hash__location({
  *	 id: parseInt
@@ -31,33 +26,32 @@ export function _query__hash__location(ctx__transform) {
 	const hash__url__string =
 		$hash__url__string(window.location.href)
 	const decodeURIComponent__hash__url__string =
-		decodeURIComponent(hash__url__string)
+		decodeURIComponent(hash__url__string) as string
 	let query__hash__location = {}
-	let a1__query__hash__location
+	let a1__query__hash__location: string[]
 	if (decodeURIComponent__hash__url__string) {
 		a1__query__hash__location =
-			decodeURIComponent__hash__url__string.split('&')
+			decodeURIComponent__hash__url__string.split('&') as string[]
 		decodeURIComponent__query__hash__location()
 		split__query__hash__location()
 		reduce(a1__query__hash__location)
 	}
 	return query__hash__location
 	function decodeURIComponent__query__hash__location() {
-		let a1__query__hash__location__ = []
+		let a1__query__hash__location__ = [] as string[]
 		for (let i = 0; i < a1__query__hash__location.length; i++) {
 			a1__query__hash__location__.push(
-				decodeURIComponent(
-					a1__query__hash__location[i]))
+				decodeURIComponent(a1__query__hash__location[i]))
 		}
 		a1__query__hash__location = a1__query__hash__location__
 		return a1__query__hash__location__
 	}
 	function split__query__hash__location() {
-		let a1__query__hash__location__ = []
+		let a1__query__hash__location__ = [] as string[]
 		for (let i = 0; i < a1__query__hash__location.length; i++) {
 			const uriComponent = a1__query__hash__location[i]
 			a1__query__hash__location__.push(
-				uriComponent.split('='))
+				uriComponent.split('=')[0])
 		}
 		a1__query__hash__location = a1__query__hash__location__
 		return a1__query__hash__location__

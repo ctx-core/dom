@@ -1,5 +1,20 @@
 # @ctx-core/dom
 
+## 7.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/data@3.0.0
+  - @ctx-core/function@16.0.0
+  - @ctx-core/html@7.0.0
+  - @ctx-core/object@12.0.0
+  - @ctx-core/store@17.0.0
+
 ## 6.0.37
 
 ### Patch Changes

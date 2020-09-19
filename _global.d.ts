@@ -1,2 +1,2 @@
 /// <reference types="node" />
-export declare function _global(): (Window & typeof globalThis) | NodeJS.Global;
+export declare function _global(): (Window & typeof globalThis) | (NodeJS.Global & typeof globalThis);

@@ -16,7 +16,7 @@ export declare function _bcr__scroll(node: any, scroll_node?: HTMLElement): {
     width: any;
     x: any;
     y: any;
-};
+} | undefined;
 export declare function _bcr__offset(node: any): {
     top: any;
     right: any;
