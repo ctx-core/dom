@@ -1,5 +1,16 @@
 # @ctx-core/dom
 
+## 7.0.2
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/data@3.0.2
+  - @ctx-core/html@7.0.1
+  - @ctx-core/object@12.0.1
+  - @ctx-core/store@17.0.2
+
 ## 7.0.1
 
 ### Patch Changes
