@@ -1,5 +1,12 @@
 # @ctx-core/dom
 
+## 7.0.16
+
+### Patch Changes
+
+- @ctx-core/data@3.0.10
+- @ctx-core/store@17.2.2
+
 ## 7.0.15
 
 ### Patch Changes
