@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "7.0.20",
+	"version": "7.0.21",
 	"description": "ctx-core dom",
 	"keywords": [
 		"ctx-core",
@@ -31,7 +31,7 @@
 		"@ctx-core/function": "workspace:^16.1.0",
 		"@ctx-core/html": "workspace:^7.0.7",
 		"@ctx-core/object": "workspace:^12.0.6",
-		"@ctx-core/store": "workspace:^18.0.2"
+		"@ctx-core/store": "workspace:^18.1.0"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.3"
