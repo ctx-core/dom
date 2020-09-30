@@ -20,9 +20,7 @@ export function empty__location__window() {
  * })
  */
 export function _query__hash__location(ctx__transform) {
-	ctx__transform = assign({
-		row_id: value=>parseFloat(value)
-	}, ctx__transform)
+	ctx__transform = assign({ row_id: value=>parseFloat(value) }, ctx__transform)
 	const hash__url__string =
 		$hash__url__string(window.location.href)
 	const decodeURIComponent__hash__url__string =
