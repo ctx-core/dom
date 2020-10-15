@@ -1,4 +1,5 @@
 export * from './__dom2';
+export * from './_baseURI';
 export * from './_dom';
 export * from './_dom2';
 export * from './_dom_a1';

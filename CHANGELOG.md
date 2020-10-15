@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 7.1.0
+
+### Minor Changes
+
+- feat: \_baseURI
+
 ## 7.0.48
 
 ### Patch Changes
