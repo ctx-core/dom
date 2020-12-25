@@ -1,5 +1,19 @@
 # @ctx-core/dom
 
+## 7.1.26
+
+### Patch Changes
+
+- - .rush
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.4.0
+  - @ctx-core/data@3.0.38
+  - @ctx-core/html@7.1.15
+  - @ctx-core/object@15.0.10
+  - @ctx-core/store@23.1.15
+
 ## 7.1.25
 
 ### Patch Changes
