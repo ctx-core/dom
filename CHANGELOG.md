@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 7.1.36
+
+### Patch Changes
+
+- @ctx-core/html@7.1.25
+
 ## 7.1.35
 
 ### Patch Changes
