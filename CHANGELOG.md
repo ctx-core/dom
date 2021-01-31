@@ -1,5 +1,15 @@
 # @ctx-core/dom
 
+## 7.1.50
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@16.1.0
+  - @ctx-core/html@7.1.30
+  - @ctx-core/store@23.4.4
+  - @ctx-core/data@3.0.51
+
 ## 7.1.49
 
 ### Patch Changes
