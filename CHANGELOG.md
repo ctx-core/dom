@@ -1,5 +1,20 @@
 # @ctx-core/dom
 
+## 8.0.0
+
+### Major Changes
+
+- src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.0.0
+  - @ctx-core/function@17.0.0
+  - @ctx-core/html@8.0.0
+  - @ctx-core/object@17.0.0
+  - @ctx-core/store@24.0.0
+
 ## 7.1.52
 
 ### Patch Changes
