@@ -4,4 +4,4 @@
  * @param {HTMLElement=} parent
  * @returns {HTMLElement} the first HTMLElement matching the selector
  */
-export declare function _dom(selector: any, parent?: HTMLElement): any;
+export declare function _dom<O extends HTMLElement = HTMLElement>(selector: any, parent?: HTMLElement): O;

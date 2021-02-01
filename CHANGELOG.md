@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 8.1.0
+
+### Minor Changes
+
+- scrollIntoView_collection_child,scroll_anchor,onclick_scroll_anchor
+
 ## 8.0.2
 
 ### Patch Changes
