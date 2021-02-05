@@ -1,5 +1,12 @@
 # @ctx-core/dom
 
+## 8.1.6
+
+### Patch Changes
+
+- @ctx-core/data@4.0.8
+- @ctx-core/store@24.0.7
+
 ## 8.1.5
 
 ### Patch Changes
