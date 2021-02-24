@@ -1,13 +1,10 @@
-import { __dom } from './_dom_a1'
+import { _dom_a1 } from './_dom_a1'
 /**
  * All matching HTMLElements from the selector.
  *
  * - If selector is an object, return selector.
- * @param {string|*} selector - the DOM query selector
- * @param {HTMLElement=} parent
- * @returns {NodeList} a NodeList of the HTMLElements matching the selector
  */
-export function __dom2(selector, parent?:HTMLElement) {
+export function __dom2(selector, parent?:HTMLElement):NodeList {
 	if (typeof selector === 'object') return selector
-	return __dom(selector, parent)
+	return _dom_a1(selector, parent)
 }

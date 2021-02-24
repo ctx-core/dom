@@ -1,11 +1,4 @@
-/**
- * The constructor for DOM element name__element
- * @param {string} name__element
- * @returns {Function} The {@link HTMLElement} constructor
- */
-export function constructor__element(name__element) {
-	return document.createElement(name__element).constructor
-}
+
 export function check__element(el) {
 	const { checked } = el
 	if (!checked) {

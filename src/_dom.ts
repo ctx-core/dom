@@ -4,6 +4,6 @@
  * @param {HTMLElement=} parent
  * @returns {HTMLElement} the first HTMLElement matching the selector
  */
-export function _dom<O extends HTMLElement = HTMLElement>(selector, parent?:HTMLElement):O {
+export function _dom<Out extends HTMLElement = HTMLElement>(selector, parent?:HTMLElement):Out {
 	return (parent || document).querySelector(selector)
 }

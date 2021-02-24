@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 8.2.0
+
+### Minor Changes
+
+- single underscore forward naming convention
+
 ## 8.1.18
 
 ### Patch Changes

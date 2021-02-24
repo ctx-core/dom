@@ -1,5 +1,5 @@
 import { _dom } from './_dom'
-export function scroll_anchor(href:string, root:HTMLElement) {
+export function scroll_anchor(href:string, root:HTMLElement):void {
 	const href_target = _dom(href, root)
 	if (href_target) {
 		href_target.scrollIntoView()
