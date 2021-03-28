@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 8.2.13
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.0.26
+  - @ctx-core/function@17.4.2
+  - @ctx-core/html@8.0.19
+  - @ctx-core/object@17.4.1
+  - @ctx-core/store@24.1.14
+
 ## 8.2.12
 
 ### Patch Changes
