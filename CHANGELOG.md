@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 8.2.14
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.0.27
+  - @ctx-core/function@17.4.3
+  - @ctx-core/html@8.0.20
+  - @ctx-core/object@17.4.2
+  - @ctx-core/store@24.1.15
+
 ## 8.2.13
 
 ### Patch Changes
