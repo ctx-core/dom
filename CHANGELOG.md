@@ -1,5 +1,26 @@
 # @ctx-core/dom
 
+## 8.2.40
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.0.35
+  - @ctx-core/html@8.0.31
+  - @ctx-core/object@17.5.13
+  - @ctx-core/store@24.5.8
+
+## 8.2.39
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.0.34
+  - @ctx-core/object@17.5.12
+  - @ctx-core/store@24.5.7
+
 ## 8.2.38
 
 ### Patch Changes
