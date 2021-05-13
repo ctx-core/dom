@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 8.2.59
+
+### Patch Changes
+
+- update dependencies
+
 ## 8.2.58
 
 ### Patch Changes
