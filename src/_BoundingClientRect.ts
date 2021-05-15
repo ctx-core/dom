@@ -1,4 +1,4 @@
-export function _BoundingClientRect(el) {
+export function _BoundingClientRect(el:HTMLElement):BoundingClientRect {
 	const {
 		top,
 		bottom,
@@ -6,7 +6,14 @@ export function _BoundingClientRect(el) {
 		right,
 		height,
 		width,
-		length
 	} = el.getBoundingClientRect()
-	return { top, bottom, left, right, height, width, length }
+	return { top, bottom, left, right, height, width }
+}
+export interface BoundingClientRect {
+	top:number
+	bottom:number
+	left:number
+	right:number
+	height:number
+	width:number
 }

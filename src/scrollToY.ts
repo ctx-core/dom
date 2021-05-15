@@ -6,15 +6,15 @@ const { max, min, abs, pow, sin, cos, PI } = Math
  * @param easing
  * @see {@link https://stackoverflow.com/questions/12199363/scrollto-with-animation#answer-26798337}
  */
-export function scrollToY(scrollTargetY, speed, easing) {
+export function scrollToY(scrollTargetY:number, speed:number, easing:'easeOutSine'|'easeInOutSine'|'easeInOutQuint') {
 	// first add raf shim
 	// http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
-	const requestAnimationFrame = (() =>
+	const requestAnimationFrame = (()=>
 			window.requestAnimationFrame ||
 			window.webkitRequestAnimationFrame ||
 			// @ts-ignore
 			window.mozRequestAnimationFrame ||
-			function (callback) {
+			function (callback:()=>any) {
 				window.setTimeout(callback, 1000 / 60)
 			}
 	)()
@@ -35,13 +35,13 @@ export function scrollToY(scrollTargetY, speed, easing) {
 				.8))
 	// easing equations from https://github.com/danro/easing-js/blob/master/easing.js
 	const easingEquations = {
-		easeOutSine(pos) {
+		easeOutSine(pos:number) {
 			return sin(pos * (PI / 2))
 		},
-		easeInOutSine(pos) {
+		easeInOutSine(pos:number) {
 			return (-0.5 * (cos(PI * pos) - 1))
 		},
-		easeInOutQuint(pos) {
+		easeInOutQuint(pos:number) {
 			if ((pos /= 0.5) < 1) {
 				return 0.5 * pow(pos, 5)
 			}

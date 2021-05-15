@@ -7,13 +7,13 @@ import { _url_hash_str } from './_url_hash_str'
  *	 id: parseInt
  * })
  */
-export function _location_hash_query(transform_ctx) {
-	transform_ctx = assign({ row_id: value=>parseFloat(value) }, transform_ctx)
+export function _location_hash_query(transform_ctx:Record<string, (value:any, key?:string)=>number>) {
+	transform_ctx = assign({ row_id: (value:string)=>parseFloat(value) }, transform_ctx)
 	const url_hash_str = _url_hash_str(window.location.href)
 	const decoded_url_hash_str =
 		decodeURIComponent(url_hash_str) as string
-	let location_hash_query = {}
-	let location_hash_query_a1: string[]
+	let location_hash_query:Record<string, any> = {}
+	let location_hash_query_a1:string[]
 	if (decoded_url_hash_str) {
 		location_hash_query_a1 = decoded_url_hash_str.split('&') as string[]
 		decodeURIComponent_location_hash_query()

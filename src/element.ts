@@ -1,5 +1,4 @@
-
-export function check__element(el) {
+export function check_element(el:HTMLInputElement) {
 	const { checked } = el
 	if (!checked) {
 		el.checked = true
@@ -13,4 +12,7 @@ export function check__element(el) {
 		el.dispatchEvent(change__event)
 	}
 	return el
+}
+export {
+	check_element as check__element
 }

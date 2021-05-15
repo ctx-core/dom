@@ -1,5 +1,20 @@
 # @ctx-core/dom
 
+## 8.3.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.1.0
+  - @ctx-core/function@17.9.0
+  - @ctx-core/html@8.1.0
+  - @ctx-core/object@17.6.0
+  - @ctx-core/store@24.8.0
+
 ## 8.2.61
 
 ### Patch Changes

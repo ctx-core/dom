@@ -1,1 +1,2 @@
-export declare function check__element(el: any): any;
+export declare function check_element(el: HTMLInputElement): HTMLInputElement;
+export { check_element as check__element };

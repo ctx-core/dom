@@ -1,10 +1,14 @@
+import type { selector_T } from './selector_T'
 /**
  * All matching HTMLElements from the selector
  * @param {string} selector - the DOM query selector
  * @param {HTMLElement=} parent
  * @returns {NodeList} a NodeList of the HTMLElements matching the selector
  */
-export function _dom_a1(selector, parent?):NodeList {
+export function _dom_a1(
+	selector:selector_T,
+	parent?:Node & ParentNode | null
+):NodeList {
 	return (parent || document).querySelectorAll(selector)
 }
 export {

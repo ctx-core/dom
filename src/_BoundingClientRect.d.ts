@@ -1,9 +1,9 @@
-export declare function _BoundingClientRect(el: any): {
-    top: any;
-    bottom: any;
-    left: any;
-    right: any;
-    height: any;
-    width: any;
-    length: any;
-};
+export declare function _BoundingClientRect(el: HTMLElement): BoundingClientRect;
+export interface BoundingClientRect {
+    top: number;
+    bottom: number;
+    left: number;
+    right: number;
+    height: number;
+    width: number;
+}

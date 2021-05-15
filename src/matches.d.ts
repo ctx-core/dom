@@ -1,3 +1,4 @@
+import type { selector_T } from './selector_T';
 /**
  * Match `el` to `selector`.
  *
@@ -6,4 +7,4 @@
  * @return {Boolean}
  * @api public
  */
-export declare function matches(el: any, selector: any): true | undefined;
+export declare function matches(el: Node, selector: selector_T | HTMLElement): true | undefined;

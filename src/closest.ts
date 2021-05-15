@@ -1,9 +1,10 @@
 import { matches } from './matches'
+import type { selector_T } from './selector_T'
 /**
  * Returns the first matching dom element in el -> ...parent
  * @returns {*|Node}
  */
-export function closest(selector:string, element:HTMLElement, self_check?:boolean) {
+export function closest(selector:selector_T, element:HTMLElement, self_check?:boolean) {
 	let val = self_check
 					 ? element
 					 : element.parentNode

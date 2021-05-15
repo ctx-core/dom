@@ -4,7 +4,7 @@ import { _dom } from './_dom'
  *
  * - If selector is an object, return selector.
  */
-export function _dom2(selector:string|object, parent?:HTMLElement):HTMLElement {
+export function _dom2(selector:string|object, parent?:Node&ParentNode|null):HTMLElement|null {
 	if (typeof selector === 'object') return selector as HTMLElement
 	return _dom(selector, parent)
 }

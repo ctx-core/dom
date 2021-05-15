@@ -5,5 +5,5 @@
  *	 id: parseInt
  * })
  */
-export declare function _location_hash_query(transform_ctx: any): {};
+export declare function _location_hash_query(transform_ctx: Record<string, (value: any, key?: string) => number>): Record<string, any>;
 export { _location_hash_query as $query__hash__location };

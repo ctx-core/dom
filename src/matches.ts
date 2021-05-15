@@ -1,4 +1,5 @@
 import { _dom_a1 } from './_dom_a1'
+import type { selector_T } from './selector_T'
 /**
  * Match `el` to `selector`.
  *
@@ -7,7 +8,7 @@ import { _dom_a1 } from './_dom_a1'
  * @return {Boolean}
  * @api public
  */
-export function matches(el, selector) {
+export function matches(el:Node, selector: selector_T|HTMLElement) {
 	const { parentNode } = el
 	if (!parentNode) return
 	if (selector == el) return true
