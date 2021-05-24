@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 8.4.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.2.1
+  - @ctx-core/function@17.10.1
+  - @ctx-core/html@8.2.1
+  - @ctx-core/object@18.1.1
+  - @ctx-core/store@24.9.1
+
 ## 8.4.0
 
 ### Minor Changes
