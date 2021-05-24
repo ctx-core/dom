@@ -1,5 +1,20 @@
 # @ctx-core/dom
 
+## 8.4.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.2.0
+  - @ctx-core/function@17.10.0
+  - @ctx-core/html@8.2.0
+  - @ctx-core/object@18.1.0
+  - @ctx-core/store@24.9.0
+
 ## 8.3.10
 
 ### Patch Changes

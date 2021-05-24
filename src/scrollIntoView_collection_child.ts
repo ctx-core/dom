@@ -1,4 +1,4 @@
-export function scrollIntoView_collection_child(parent:HTMLElement, child:HTMLElement):void {
+export function scrollIntoView_collection_child(parent:HTMLElement, child:HTMLElement) {
 	const { top, height } = parent.getBoundingClientRect()
 	const bottom = top + height
 	const { top: child_top, height: child_height } = child.getBoundingClientRect()
