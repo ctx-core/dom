@@ -1,5 +1,20 @@
 # @ctx-core/dom
 
+## 8.5.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/data@4.3.0
+  - @ctx-core/function@17.11.0
+  - @ctx-core/html@8.3.0
+  - @ctx-core/object@18.2.0
+  - @ctx-core/store@24.10.0
+
 ## 8.4.1
 
 ### Patch Changes
