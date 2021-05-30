@@ -5,15 +5,15 @@ import type { selector_T } from './selector_T'
  * @param {HTMLElement=} parent
  * @returns {NodeList} a NodeList of the HTMLElements matching the selector
  */
-export function _dom_a1(
+export function dom_a_(
 	selector:selector_T,
 	parent?:Node & ParentNode | null
 ):NodeList {
 	return (parent || document).querySelectorAll(selector)
 }
 export {
-	_dom_a1 as _a1__dom,
-	_dom_a1 as __dom,
-	_dom_a1 as _node_list__dom,
-	_dom_a1 as _NL__dom,
+	dom_a_ as _a1__dom,
+	dom_a_ as __dom,
+	dom_a_ as _node_list__dom,
+	dom_a_ as _NL__dom,
 }

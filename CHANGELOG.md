@@ -1,5 +1,22 @@
 # @ctx-core/dom
 
+## 9.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/data@5.0.0
+  - @ctx-core/function@18.0.0
+  - @ctx-core/html@9.0.0
+  - @ctx-core/object@19.0.0
+  - @ctx-core/store@25.0.0
+
 ## 8.5.1
 
 ### Patch Changes

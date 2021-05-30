@@ -1,5 +1,5 @@
 let proto:ProtoElement
-export function _matches_vendor() {
+export function matches_vendor_() {
 	if (!proto) {
 		if (typeof Element === 'undefined') return
 		proto = Element.prototype as ProtoElement
@@ -15,4 +15,7 @@ export interface ProtoElement extends Element {
 	mozMatchesSelector(selectors: string): boolean
 	msMatchesSelector(selectors: string): boolean
 	oMatchesSelector(selectors: string): boolean
+}
+export {
+	matches_vendor_ as _matches_vendor,
 }

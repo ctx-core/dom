@@ -1,4 +1,4 @@
-import { _dom_a1 } from './_dom_a1'
+import { dom_a_ } from './dom_a_'
 import type { selector_T } from './selector_T'
 /**
  * Match `el` to `selector`.
@@ -13,7 +13,7 @@ export function matches(el:Node, selector: selector_T|HTMLElement) {
 	if (!parentNode) return
 	if (selector == el) return true
 	if (typeof selector !== 'string') return
-	const nodes = _dom_a1(selector, parentNode)
+	const nodes = dom_a_(selector, parentNode)
 	for (let i = 0; i < nodes.length; i++) {
 		if (nodes[i] == el) return true
 	}

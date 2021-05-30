@@ -3,13 +3,13 @@ export function check_element(el:HTMLInputElement) {
 	if (!checked) {
 		el.checked = true
 	}
-	const click__event = document.createEvent('HTMLEvents')
-	click__event.initEvent('click', true, false)
-	el.dispatchEvent(click__event)
+	const click_event = document.createEvent('HTMLEvents')
+	click_event.initEvent('click', true, false)
+	el.dispatchEvent(click_event)
 	if (!checked) {
-		const change__event = document.createEvent('HTMLEvents')
-		change__event.initEvent('change', true, false)
-		el.dispatchEvent(change__event)
+		const change_event = document.createEvent('HTMLEvents')
+		change_event.initEvent('change', true, false)
+		el.dispatchEvent(change_event)
 	}
 	return el
 }

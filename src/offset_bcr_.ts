@@ -1,4 +1,4 @@
-export function _offset_bcr(node:HTMLElement) {
+export function offset_bcr_(node:HTMLElement) {
 	const { offsetTop, offsetLeft, offsetHeight, offsetWidth } = node
 	return {
 		top: offsetTop,
@@ -12,5 +12,6 @@ export function _offset_bcr(node:HTMLElement) {
 	}
 }
 export {
-	_offset_bcr as _bcr__offset
+	offset_bcr_ as _offset_bcr,
+	offset_bcr_ as _bcr__offset,
 }

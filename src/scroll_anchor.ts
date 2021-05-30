@@ -1,6 +1,6 @@
-import { _dom } from './_dom'
+import { dom_ } from './dom_'
 export function scroll_anchor(href:string, root:HTMLElement):void {
-	const href_target = _dom(href, root)
+	const href_target = dom_(href, root)
 	if (href_target) {
 		href_target.scrollIntoView()
 		window.location.hash = href

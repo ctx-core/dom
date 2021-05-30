@@ -1,4 +1,4 @@
-export function _scroll_bcr(node:HTMLElement, scroll_node = document.documentElement) {
+export function scroll_bcr_(node:HTMLElement, scroll_node = document.documentElement) {
 	if (!scroll_node) return
 	const bcr = node.getBoundingClientRect()
 	const { scrollLeft, scrollTop } = scroll_node
@@ -14,5 +14,6 @@ export function _scroll_bcr(node:HTMLElement, scroll_node = document.documentEle
 	}
 }
 export {
-	_scroll_bcr as _bcr__scroll
+	scroll_bcr_ as _scroll_bcr,
+	scroll_bcr_ as _bcr__scroll,
 }
