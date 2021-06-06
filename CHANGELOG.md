@@ -1,5 +1,14 @@
 # @ctx-core/dom
 
+## 9.0.7
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/html@9.0.2
+  - @ctx-core/store@25.1.8
+
 ## 9.0.6
 
 ### Patch Changes
