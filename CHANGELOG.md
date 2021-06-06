@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 9.0.9
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/data@5.0.12
+  - @ctx-core/function@18.1.2
+  - @ctx-core/html@9.0.3
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+
 ## 9.0.8
 
 ### Patch Changes

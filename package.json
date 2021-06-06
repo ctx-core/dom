@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "9.0.8",
+	"version": "9.0.9",
 	"description": "ctx-core dom",
 	"keywords": [
 		"ctx-core",
@@ -21,17 +21,17 @@
 	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
+		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/data": "workspace:^5.0.11",
-		"@ctx-core/function": "workspace:^18.1.1",
-		"@ctx-core/html": "workspace:^9.0.2",
-		"@ctx-core/object": "workspace:^19.1.1",
-		"@ctx-core/store": "workspace:^25.1.11"
+		"@ctx-core/data": "workspace:^5.0.12",
+		"@ctx-core/function": "workspace:^18.1.2",
+		"@ctx-core/html": "workspace:^9.0.3",
+		"@ctx-core/object": "workspace:^19.1.2",
+		"@ctx-core/store": "workspace:^25.1.12"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.2"
