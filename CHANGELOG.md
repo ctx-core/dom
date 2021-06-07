@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 9.0.10
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/data@5.0.13
+  - @ctx-core/function@18.1.3
+  - @ctx-core/html@9.0.4
+  - @ctx-core/object@19.1.3
+  - @ctx-core/store@25.1.13
+
 ## 9.0.9
 
 ### Patch Changes
