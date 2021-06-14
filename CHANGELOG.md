@@ -1,5 +1,20 @@
 # @ctx-core/dom
 
+## 10.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/data@6.0.0
+  - @ctx-core/function@19.0.0
+  - @ctx-core/html@10.0.0
+  - @ctx-core/object@20.0.0
+  - @ctx-core/store@26.0.0
+
 ## 9.0.15
 
 ### Patch Changes
