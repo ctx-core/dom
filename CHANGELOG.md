@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 10.0.8
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/data@6.0.9
+  - @ctx-core/function@19.1.7
+  - @ctx-core/html@10.0.7
+  - @ctx-core/object@20.0.8
+  - @ctx-core/store@26.0.9
+
 ## 10.0.7
 
 ### Patch Changes
