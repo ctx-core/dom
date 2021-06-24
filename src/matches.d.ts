@@ -7,4 +7,4 @@ import type { selector_T } from './selector_T';
  * @return {Boolean}
  * @api public
  */
-export declare function matches(el: Node, selector: selector_T | HTMLElement): true | undefined;
+export declare function matches(el: Node, selector: selector_T | HTMLElement): boolean;

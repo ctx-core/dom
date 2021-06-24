@@ -8,13 +8,14 @@ import type { selector_T } from './selector_T'
  * @return {Boolean}
  * @api public
  */
-export function matches(el:Node, selector: selector_T|HTMLElement) {
+export function matches(el:Node, selector: selector_T|HTMLElement):boolean {
 	const { parentNode } = el
-	if (!parentNode) return
+	if (!parentNode) return false
 	if (selector == el) return true
-	if (typeof selector !== 'string') return
+	if (typeof selector !== 'string') return false
 	const nodes = dom_a_(selector, parentNode)
 	for (let i = 0; i < nodes.length; i++) {
 		if (nodes[i] == el) return true
 	}
+	return false
 }
