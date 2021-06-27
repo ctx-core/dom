@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 10.0.15
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/data@6.0.13
+  - @ctx-core/function@19.1.10
+  - @ctx-core/html@10.0.13
+  - @ctx-core/object@20.2.2
+  - @ctx-core/store@26.0.17
+
 ## 10.0.14
 
 ### Patch Changes
