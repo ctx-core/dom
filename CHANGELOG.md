@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 10.0.16
+
+### Patch Changes
+
+- update dependencies
+
 ## 10.0.15
 
 ### Patch Changes
