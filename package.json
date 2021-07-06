@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "10.0.20",
+	"version": "10.0.21",
 	"description": "ctx-core dom",
 	"keywords": [
 		"ctx-core",
@@ -27,11 +27,11 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/data": "workspace:^6.0.16",
-		"@ctx-core/function": "workspace:^19.1.12",
+		"@ctx-core/data": "workspace:^6.0.17",
+		"@ctx-core/function": "workspace:^19.1.13",
 		"@ctx-core/html": "workspace:^10.2.2",
-		"@ctx-core/object": "workspace:^20.2.4",
-		"@ctx-core/store": "workspace:^26.0.20"
+		"@ctx-core/object": "workspace:^20.2.5",
+		"@ctx-core/store": "workspace:^26.0.21"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.5"
