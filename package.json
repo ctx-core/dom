@@ -27,11 +27,11 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/data": "workspace:^6.0.18",
+		"@ctx-core/data": "workspace:^6.0.19",
 		"@ctx-core/function": "workspace:^19.2.0",
 		"@ctx-core/html": "workspace:^10.2.5",
 		"@ctx-core/object": "workspace:^20.4.2",
-		"@ctx-core/store": "workspace:^26.0.26"
+		"@ctx-core/store": "workspace:^26.0.27"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.5"
