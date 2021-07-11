@@ -1,5 +1,15 @@
 # @ctx-core/dom
 
+## 10.0.26
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/data@6.0.18
+  - @ctx-core/object@20.4.2
+  - @ctx-core/store@26.0.26
+
 ## 10.0.25
 
 ### Patch Changes
