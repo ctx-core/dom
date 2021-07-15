@@ -7,7 +7,9 @@ import { url_hash_str_ } from './url_hash_str_.js'
  *	 id: parseInt
  * })
  */
-export function location_hash_query_(transform_ctx:Record<string, (value:any, key?:string)=>number>) {
+export function location_hash_query_(
+	transform_ctx:Record<string, (value:any, key?:string)=>number>
+):Record<string, any> {
 	transform_ctx = assign({ row_id: (value:string)=>parseFloat(value) }, transform_ctx)
 	const url_hash_str = url_hash_str_(window.location.href)
 	const decoded_url_hash_str =

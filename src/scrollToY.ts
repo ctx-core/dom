@@ -6,7 +6,9 @@ const { max, min, abs, pow, sin, cos, PI } = Math
  * @param easing
  * @see {@link https://stackoverflow.com/questions/12199363/scrollto-with-animation#answer-26798337}
  */
-export function scrollToY(scrollTargetY:number, speed:number, easing:'easeOutSine'|'easeInOutSine'|'easeInOutQuint') {
+export function scrollToY(
+	scrollTargetY:number, speed:number, easing:'easeOutSine'|'easeInOutSine'|'easeInOutQuint'
+):void {
 	// first add raf shim
 	// http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
 	const requestAnimationFrame = (()=>

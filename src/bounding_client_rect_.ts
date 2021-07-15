@@ -1,11 +1,6 @@
 export function BoundingClientRect_(el:HTMLElement):BoundingClientRect {
 	const {
-		top,
-		bottom,
-		left,
-		right,
-		height,
-		width,
+		top, bottom, left, right, height, width,
 	} = el.getBoundingClientRect()
 	return { top, bottom, left, right, height, width }
 }

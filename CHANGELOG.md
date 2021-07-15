@@ -1,5 +1,13 @@
 # @ctx-core/dom
 
+## 11.0.3
+
+### Patch Changes
+
+- fix: module imports;types
+- Updated dependencies [undefined]
+  - @ctx-core/html@11.0.3
+
 ## 11.0.2
 
 ### Patch Changes

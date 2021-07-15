@@ -1,4 +1,4 @@
-export function url_hash_str_(url:string) {
+export function url_hash_str_(url:string):string {
 	const hash_index = url.indexOf('#')
 	const string_url_hash =
 		hash_index != -1

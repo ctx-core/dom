@@ -1,4 +1,4 @@
-export function no_dom_() {
+export function no_dom_():boolean {
 	return typeof window === 'undefined'
 }
 export {

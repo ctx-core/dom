@@ -1,5 +1,5 @@
 let proto:ProtoElement
-export function matches_vendor_() {
+export function matches_vendor_():((selectors: string) => boolean)|undefined {
 	if (!proto) {
 		if (typeof Element === 'undefined') return
 		proto = Element.prototype as ProtoElement

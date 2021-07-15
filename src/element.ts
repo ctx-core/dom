@@ -1,4 +1,4 @@
-export function check_element(el:HTMLInputElement) {
+export function check_element(el:HTMLInputElement):HTMLInputElement {
 	const { checked } = el
 	if (!checked) {
 		el.checked = true
