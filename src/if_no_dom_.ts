@@ -1,4 +1,4 @@
-import { no_dom } from './no_dom'
+import { no_dom } from './no_dom.js'
 export function if_no_dom_<Fn extends (...args:any[])=>any = (...args:any[])=>any>(fn:Fn) {
 	return (...args:any[]) => no_dom && fn(...args)
 }

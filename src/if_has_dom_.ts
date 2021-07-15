@@ -1,4 +1,4 @@
-import { has_dom } from './has_dom'
+import { has_dom } from './has_dom.js'
 export function if_has_dom_<Fn extends (...args:any[])=>any = (...args:any[])=>any>(fn:Fn) {
 	return (...args:any[])=>has_dom && fn(...args)
 }

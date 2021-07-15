@@ -1,5 +1,5 @@
 import { assign } from '@ctx-core/object'
-import { url_hash_str_ } from './url_hash_str_'
+import { url_hash_str_ } from './url_hash_str_.js'
 /**
  * Returns an query__hash__location
  * @example

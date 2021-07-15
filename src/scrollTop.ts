@@ -1,4 +1,4 @@
-import { no_dom } from './no_dom'
+import { no_dom } from './no_dom.js'
 /**
  * Scroll to the top of the parentElement
  */

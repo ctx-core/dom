@@ -1,5 +1,5 @@
-import { dom_a_ } from './dom_a_'
-import type { selector_T } from './selector_T'
+import { dom_a_ } from './dom_a_.js'
+import type { selector_T } from './selector_T.js'
 /**
  * All matching HTMLElements from the selector.
  *

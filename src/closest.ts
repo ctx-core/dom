@@ -1,5 +1,5 @@
-import { matches } from './matches'
-import type { selector_T } from './selector_T'
+import { matches } from './matches.js'
+import type { selector_T } from './selector_T.js'
 /**
  * Returns the first matching dom element in el -> ...parent
  * @returns {*|Node}

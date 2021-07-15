@@ -1,4 +1,4 @@
-import type { selector_T } from './selector_T'
+import type { selector_T } from './selector_T.js'
 /**
  * All matching HTMLElements from the selector
  * @param {string} selector - the DOM query selector

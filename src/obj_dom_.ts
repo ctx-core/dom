@@ -1,4 +1,4 @@
-import { dom_ } from './dom_'
+import { dom_ } from './dom_.js'
 /**
  * The first matching HTMLElement from the selector
  *
