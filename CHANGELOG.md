@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.8
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/data@7.0.7
+  - @ctx-core/function@20.0.6
+  - @ctx-core/html@11.0.7
+  - @ctx-core/object@21.0.6
+  - @ctx-core/store@27.0.5
+
 ## 11.0.7
 
 ### Patch Changes
