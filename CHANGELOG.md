@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.10
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/data@7.0.9
+  - @ctx-core/function@20.0.8
+  - @ctx-core/html@11.0.9
+  - @ctx-core/object@21.0.8
+  - @ctx-core/store@27.0.7
+
 ## 11.0.9
 
 ### Patch Changes
