@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.0.17
+
+### Patch Changes
+
+- fix: position*offset*: falsy el: return { top: 0, left: 0 }
+
 ## 11.0.16
 
 ### Patch Changes
