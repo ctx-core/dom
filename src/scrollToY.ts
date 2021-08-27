@@ -13,7 +13,7 @@ export function scrollToY(
 	// http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
 	const requestAnimationFrame = (()=>
 			window.requestAnimationFrame ||
-			window.webkitRequestAnimationFrame ||
+			(window as any).webkitRequestAnimationFrame ||
 			// @ts-ignore
 			window.mozRequestAnimationFrame ||
 			function (callback:()=>any) {

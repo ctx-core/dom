@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.0.22
+
+### Patch Changes
+
+- fix: typescript upgrade: build
+
 ## 11.0.21
 
 ### Patch Changes
