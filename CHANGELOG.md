@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.21
+
+### Patch Changes
+
+- typescript: ^4.3.5 -> ^4.4.2
+- Updated dependencies [undefined]
+  - @ctx-core/data@7.0.18
+  - @ctx-core/function@20.1.3
+  - @ctx-core/html@11.0.16
+  - @ctx-core/object@21.0.17
+  - @ctx-core/store@27.0.24
+
 ## 11.0.20
 
 ### Patch Changes
