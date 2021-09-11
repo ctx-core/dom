@@ -1,5 +1,15 @@
 # @ctx-core/dom
 
+## 11.0.25
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/data@7.0.20
+  - @ctx-core/object@21.0.19
+  - @ctx-core/store@27.0.29
+
 ## 11.0.24
 
 ### Patch Changes
