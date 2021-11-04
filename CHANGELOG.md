@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.0.29
+
+### Patch Changes
+
+- fix: closest: returns ParentNode
+
 ## 11.0.28
 
 ### Patch Changes
