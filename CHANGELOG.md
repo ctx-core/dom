@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.30
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/data@7.0.23
+  - @ctx-core/function@20.2.3
+  - @ctx-core/html@11.0.19
+  - @ctx-core/object@21.0.22
+  - @ctx-core/store@27.0.36
+
 ## 11.0.29
 
 ### Patch Changes
