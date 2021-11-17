@@ -1,4 +1,4 @@
-import type { BoundingClientRect } from './bounding_client_rect_'
+import type { BoundingClientRect } from './bounding_client_rect_.js'
 export function offset_bcr_(node:HTMLElement):BoundingClientRect&{ x:number, y:number } {
 	const { offsetTop, offsetLeft, offsetHeight, offsetWidth } = node
 	return {

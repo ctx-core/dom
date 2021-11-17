@@ -1,4 +1,4 @@
-import type { BoundingClientRect } from './bounding_client_rect_'
+import type { BoundingClientRect } from './bounding_client_rect_.js'
 export function scroll_bcr_(
 	node:HTMLElement, scroll_node = document.documentElement
 ):BoundingClientRect&{ x:number, y:number }|undefined {
