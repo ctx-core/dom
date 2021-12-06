@@ -1,5 +1,15 @@
 # @ctx-core/dom
 
+## 11.0.38
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/data@7.0.31
+  - @ctx-core/html@11.0.27
+  - @ctx-core/store@27.0.44
+
 ## 11.0.37
 
 ### Patch Changes
