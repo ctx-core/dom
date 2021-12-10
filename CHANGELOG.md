@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.40
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+  - @ctx-core/data@7.0.33
+  - @ctx-core/html@11.0.29
+  - @ctx-core/store@27.0.46
+
 ## 11.0.39
 
 ### Patch Changes
