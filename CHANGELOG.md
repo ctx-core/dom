@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.44
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/data@7.0.37
+  - @ctx-core/function@20.2.16
+  - @ctx-core/html@11.0.33
+  - @ctx-core/object@22.0.4
+  - @ctx-core/store@27.0.51
+
 ## 11.0.43
 
 ### Patch Changes
