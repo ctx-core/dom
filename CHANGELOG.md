@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.43
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/data@7.0.36
+  - @ctx-core/function@20.2.15
+  - @ctx-core/html@11.0.32
+  - @ctx-core/object@22.0.3
+  - @ctx-core/store@27.0.50
+
 ## 11.0.42
 
 ### Patch Changes
