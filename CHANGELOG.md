@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.46
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/data@7.0.39
+  - @ctx-core/function@20.2.18
+  - @ctx-core/html@11.0.35
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+
 ## 11.0.45
 
 ### Patch Changes
