@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 11.0.47
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/data@7.0.40
+  - @ctx-core/function@20.2.19
+  - @ctx-core/html@11.0.36
+  - @ctx-core/object@22.0.7
+  - @ctx-core/store@27.0.54
+
 ## 11.0.46
 
 ### Patch Changes
