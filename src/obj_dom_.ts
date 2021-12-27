@@ -5,7 +5,7 @@ import { dom_ } from './dom_.js'
  * - If selector is an object, return selector.
  */
 export function obj_dom_(
-	selector:string|object, parent?:Node&ParentNode|null
+	selector:string|object, parent?:ParentNode|null
 ):HTMLElement|null {
 	if (typeof selector === 'object') return selector as HTMLElement
 	return dom_(selector, parent)

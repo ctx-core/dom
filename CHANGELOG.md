@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.0.49
+
+### Patch Changes
+
+- fix: unnecessary type strictness: Node instead of Node&ParentNode
+
 ## 11.0.48
 
 ### Patch Changes
