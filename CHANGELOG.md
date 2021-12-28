@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.1.0
+
+### Minor Changes
+
+- onclick_scroll_anchor,scroll_anchor: root argument is optional
+
 ## 11.0.49
 
 ### Patch Changes
