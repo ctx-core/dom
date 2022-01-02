@@ -1,5 +1,21 @@
 # @ctx-core/dom
 
+## 11.1.2
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/data@7.0.42
+  - @ctx-core/function@20.2.21
+  - @ctx-core/html@11.0.38
+
+## 11.1.1
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 11.1.0
 
 ### Minor Changes
