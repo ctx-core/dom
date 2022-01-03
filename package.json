@@ -36,9 +36,9 @@
 	},
 	"dependencies": {
 		"@ctx-core/data": "workspace:^7.0.42",
-		"@ctx-core/function": "workspace:^20.2.21",
+		"@ctx-core/function": "workspace:^20.2.22",
 		"@ctx-core/html": "workspace:^11.0.38",
-		"@ctx-core/object": "workspace:^22.0.8"
+		"@ctx-core/object": "workspace:^22.0.9"
 	},
 	"devDependencies": {
 		"c8": "^7.11.0",
