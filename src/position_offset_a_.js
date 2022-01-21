@@ -1,6 +1,7 @@
 /**
  * Returns the `[left, top]` offset position of the given el
- */ export function position_offset_a_(el) {
+ */
+export function position_offset_a_(el) {
 	let left = el.offsetLeft
 	let top = el.offsetTop
 	while (el = el.offsetParent) {

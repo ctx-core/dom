@@ -6,7 +6,8 @@ import { url_hash_str_ } from './url_hash_str_.js'
  * location_hash_query_({
  *	 id: parseInt
  * })
- */ export function location_hash_query_(transform_ctx) {
+ */
+export function location_hash_query_(transform_ctx) {
 	transform_ctx = assign({
 		row_id: (value)=>parseFloat(value)
 	}, transform_ctx)

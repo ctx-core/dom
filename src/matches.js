@@ -6,7 +6,8 @@ import { dom_a_ } from './dom_a_.js'
  * @param {String} selector
  * @return {Boolean}
  * @api public
- */ export function matches(el, selector) {
+ */
+export function matches(el, selector) {
 	const { parentNode } = el
 	if (!parentNode) return false
 	if (selector == el) return true
