@@ -1,5 +1,16 @@
 # @ctx-core/dom
 
+## 11.1.10
+
+### Patch Changes
+
+- package.json: exports: update
+- Updated dependencies
+  - @ctx-core/data@7.0.50
+  - @ctx-core/function@20.6.1
+  - @ctx-core/html@11.0.44
+  - @ctx-core/object@22.1.4
+
 ## 11.1.9
 
 ### Patch Changes
