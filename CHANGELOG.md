@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.1.18
+
+### Patch Changes
+
+- update dependencies
+
 ## 11.1.17
 
 ### Patch Changes
