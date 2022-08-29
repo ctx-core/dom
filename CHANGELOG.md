@@ -1,5 +1,14 @@
 # @ctx-core/dom
 
+## 11.1.27
+
+### Patch Changes
+
+- tsx: ^3.8.2 -> ^3.9.0
+- Updated dependencies
+  - @ctx-core/function@21.0.1
+  - @ctx-core/object@22.2.7
+
 ## 11.1.26
 
 ### Patch Changes
