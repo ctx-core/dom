@@ -34,7 +34,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/data": "^7.0.69",
-		"@ctx-core/function": "^21.5.0",
+		"@ctx-core/function": "^21.6.0",
 		"@ctx-core/html": "^11.0.50",
 		"@ctx-core/object": "^22.3.0"
 	},
