@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.2.0
+
+### Minor Changes
+
+- extract directories for index.d.ts & index.js
+
 ## 11.1.28
 
 ### Patch Changes
