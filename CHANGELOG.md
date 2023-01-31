@@ -1,5 +1,16 @@
 # @ctx-core/dom
 
+## 11.2.25
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/data@7.0.84
+  - @ctx-core/function@21.6.1
+  - @ctx-core/html@11.0.65
+  - @ctx-core/object@24.1.1
+
 ## 11.2.24
 
 ### Patch Changes
