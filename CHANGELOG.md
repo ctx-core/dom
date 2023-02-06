@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.2.33
+
+### Patch Changes
+
+- @ctx-core/data: ^7.0.88 -> ^7.0.89
+
 ## 11.2.32
 
 ### Patch Changes
