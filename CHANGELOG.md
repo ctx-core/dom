@@ -1,5 +1,12 @@
 # @ctx-core/dom
 
+## 11.3.0
+
+### Minor Changes
+
+- - custom_event\_\_trigger: aliased by trigger_custom_event
+- - native_event\_\_trigger: aliased by trigger_native_event
+
 ## 11.2.36
 
 ### Patch Changes

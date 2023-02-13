@@ -39,6 +39,6 @@ export * from './scrollTop/index.js'
 export * from './scrollToY/index.js'
 export * from './set_class/index.js'
 export * from './toggle_class/index.js'
-export * from './trigger_native_event/index.js'
+export * from './native_event__trigger/index.js'
 export * from './url_hash_str_/index.js'
 

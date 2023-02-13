@@ -1,4 +1,4 @@
-export function trigger_native_event(
+export function native_event__trigger(
 	node, event_name, bubbles = true, cancelable = false
 ) {
 	const event = document.createEvent('HTMLEvents')
@@ -6,5 +6,7 @@ export function trigger_native_event(
 	node.dispatchEvent(event)
 	return event
 }
-export { trigger_native_event as trigger__native_event }
-
+export {
+	native_event__trigger as trigger_native_event,
+	native_event__trigger as trigger__native_event,
+}
