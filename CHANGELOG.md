@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.4.0
+
+### Minor Changes
+
+- - scroll**anchor**onclick: aliased by onclick_scroll_anchor
+
 ## 11.3.3
 
 ### Patch Changes
