@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 11.4.36
+
+### Patch Changes
+
+- @ctx-core/html: ^11.1.18 -> ^11.1.19
+
 ## 11.4.35
 
 ### Patch Changes
