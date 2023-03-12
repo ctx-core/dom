@@ -1,5 +1,6 @@
 /**
  * Remove hash from `window.location.href` without refreshing the page
+ * @private
  */
 export function empty_window_location() {
 	window.location.replace('#')

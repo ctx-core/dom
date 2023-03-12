@@ -1,5 +1,15 @@
-export function offset_bcr_(node) {
-	const { offsetTop, offsetLeft, offsetHeight, offsetWidth } = node
+/**
+ * @param {HTMLElement}el
+ * @returns {import('../bounding_client_rect_').BoundingClientRect}
+ * @private
+ */
+export function offset_bcr_(el) {
+	const {
+		offsetTop,
+		offsetLeft,
+		offsetHeight,
+		offsetWidth,
+	} = el
 	return {
 		top: offsetTop,
 		right: offsetLeft + offsetWidth,
@@ -8,8 +18,10 @@ export function offset_bcr_(node) {
 		height: offsetHeight,
 		width: offsetWidth,
 		x: offsetLeft,
-		y: offsetTop
+		y: offsetTop,
 	}
 }
-export { offset_bcr_ as _offset_bcr, offset_bcr_ as _bcr__offset, }
-
+export {
+	offset_bcr_ as _offset_bcr,
+	offset_bcr_ as _bcr__offset,
+}

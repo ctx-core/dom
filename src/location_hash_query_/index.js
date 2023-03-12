@@ -2,15 +2,18 @@ import { assign } from '@ctx-core/object'
 import { url_hash_str_ } from '../url_hash_str_/index.js'
 /**
  * Returns a query__hash__location
+ * {Record<string, (value:any, key?:string)=>number>}transform_o
+ * @returns {Record<string, any>}
  * @example
  * location_hash_query_({
  *	 id: parseInt
  * })
+ * @private
  */
-export function location_hash_query_(transform_ctx) {
-	transform_ctx = assign({
+export function location_hash_query_(transform_o) {
+	transform_o = assign({
 		row_id: value=>parseFloat(value)
-	}, transform_ctx)
+	}, transform_o)
 	const url_hash_str = url_hash_str_(window.location.href)
 	const decoded_url_hash_str = decodeURIComponent(url_hash_str)
 	let location_hash_query = {}
@@ -44,12 +47,14 @@ export function location_hash_query_(transform_ctx) {
 			const uriPart_a = in_location_hash_query_a[i]
 			const key = uriPart_a[0]
 			const value = uriPart_a[1]
-			const transform = transform_ctx[key]
+			const transform = transform_o[key]
 			const value_transform = transform ? transform(value, key) : value
 			location_hash_query[key] = value_transform
 		}
 		return location_hash_query
 	}
 }
-export { location_hash_query_ as _location_hash_query, location_hash_query_ as $query__hash__location, }
-
+export {
+	location_hash_query_ as _location_hash_query,
+	location_hash_query_ as $query__hash__location,
+}

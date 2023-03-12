@@ -1,6 +1,9 @@
-import { has_dom } from '../has_dom/index.js'
+/**
+ * @returns {Window}
+ * @private
+ */
 export function global_() {
-	return has_dom ? window : global
+	return globalThis
 }
 export { global_ as _global, }
 

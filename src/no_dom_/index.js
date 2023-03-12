@@ -1,3 +1,7 @@
+/**
+ * @returns {boolean}
+ * @private
+ */
 export function no_dom_() {
 	return typeof window === 'undefined'
 }

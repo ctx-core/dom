@@ -1,3 +1,8 @@
+/**
+ * @param {HTMLElement}parent
+ * @param {HTMLElement}child
+ * @private
+ */
 export function scrollIntoView_collection_child(parent, child) {
 	const { top, height } = parent.getBoundingClientRect()
 	const bottom = top + height

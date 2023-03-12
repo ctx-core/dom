@@ -1,10 +1,11 @@
 const { max, min, abs, pow, sin, cos, PI } = Math
 /**
  * @type {import('./scrollToY').scrollToY}
- * @param scrollTargetY
- * @param speed
- * @param easing
+ * @param {number}scrollTargetY
+ * @param {number}speed
+ * @param {'easeOutSine'|'easeInOutSine'|'easeInOutQuint'}easing
  * @see {@link https://stackoverflow.com/questions/12199363/scrollto-with-animation#answer-26798337}
+ * @private
  */
 export function scrollToY(scrollTargetY, speed, easing) {
 	// first add raf shim

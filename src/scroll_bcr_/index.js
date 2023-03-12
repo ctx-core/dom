@@ -1,4 +1,14 @@
-export function scroll_bcr_(node, scroll_node = document.documentElement) {
+/** @typedef {import('../bounding_client_rect_').BoundingClientRect} */
+/**
+ * @param {HTMLElement}node
+ * @param {HTMLElement}[scroll_node]
+ * @returns {(BoundingClientRect&{x: number, y: number})|undefined}
+ * @private
+ */
+export function scroll_bcr_(
+	node,
+	scroll_node = document.documentElement
+) {
 	if (!scroll_node) return
 	const bcr = node.getBoundingClientRect()
 	const { scrollLeft, scrollTop } = scroll_node
@@ -13,5 +23,7 @@ export function scroll_bcr_(node, scroll_node = document.documentElement) {
 		y: bcr.y
 	}
 }
-export { scroll_bcr_ as _scroll_bcr, scroll_bcr_ as _bcr__scroll, }
-
+export {
+	scroll_bcr_ as _scroll_bcr,
+	scroll_bcr_ as _bcr__scroll,
+}

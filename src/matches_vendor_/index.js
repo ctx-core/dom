@@ -1,4 +1,8 @@
 let proto
+/**
+ * @returns {((selectors: string)=>boolean)|undefined}
+ * @private
+ */
 export function matches_vendor_() {
 	if (!proto) {
 		if (typeof Element === 'undefined') return

@@ -1,11 +1,19 @@
 /**
  * All matching HTMLElements from the selector
- * @param {string} selector - the DOM query selector
- * @param {HTMLElement=} parent
- * @returns {NodeList} a NodeList of the HTMLElements matching the selector
+ * @param {import('../_types').selector_T}selector - the DOM query selector
+ * @param {Node|ParentNode}[parent]
+ * @returns {Element[]} a NodeList of the HTMLElements matching the selector
+ * @private
  */
-export function dom_a_(selector, parent) {
-	return (parent || document).querySelectorAll(selector)
+export function dom_a_(
+	selector,
+	parent
+) {
+	return Array.from((parent || document).querySelectorAll(selector))
 }
-export { dom_a_ as _a1__dom, dom_a_ as __dom, dom_a_ as _node_list__dom, dom_a_ as _NL__dom, }
-
+export {
+	dom_a_ as _a1__dom,
+	dom_a_ as __dom,
+	dom_a_ as _node_list__dom,
+	dom_a_ as _NL__dom,
+}

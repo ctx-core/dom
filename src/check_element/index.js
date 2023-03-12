@@ -1,3 +1,8 @@
+/**
+ * @param {HTMLInputElement}el
+ * @returns {HTMLInputElement}
+ * @private
+ */
 export function check_element(el) {
 	const { checked } = el
 	if (!checked) {

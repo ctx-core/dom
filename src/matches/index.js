@@ -1,11 +1,10 @@
 import { dom_a_ } from '../dom_a_/index.js'
 /**
  * Match `el` to `selector`.
- *
- * @param {Element} el
- * @param {String} selector
- * @return {Boolean}
- * @api public
+ * @param {Node} el
+ * @param {import('../_types').selector_T|Element}selector
+ * @return {boolean}
+ * @private
  */
 export function matches(el, selector) {
 	const { parentNode } = el

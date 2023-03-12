@@ -1,4 +1,15 @@
-export function custom_event__trigger(node, event_name, detail = {}) {
+/**
+ * @param {Element}node
+ * @param {string}event_name
+ * @param {unknown}detail
+ * @returns {Event}
+ * @private
+ */
+export function custom_event__trigger(
+	node,
+	event_name,
+	detail
+) {
 	let event
 	if (window.CustomEvent) {
 		event = new CustomEvent(event_name, {

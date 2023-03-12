@@ -1,8 +1,17 @@
+/**
+ * @param {Element}node
+ * @param {string}event_name
+ * @param {EventInit}[event_init]
+ * @returns {Event}
+ */
 export function native_event__trigger(
-	node, event_name, bubbles = true, cancelable = false
+	node,
+	event_name,
+	event_init = {
+		bubbles: true,
+	}
 ) {
-	const event = document.createEvent('HTMLEvents')
-	event.initEvent(event_name, bubbles, cancelable)
+	const event = new Event(event_name, event_init)
 	node.dispatchEvent(event)
 	return event
 }

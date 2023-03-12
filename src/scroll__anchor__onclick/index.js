@@ -1,7 +1,8 @@
 import { scroll_anchor } from '../scroll_anchor/index.js'
 /**
- * @param event{MouseEvent}
- * @param root{HTMLElement}
+ * @param {MouseEvent}event
+ * @param {HTMLElement}[root]
+ * @private
  */
 export function scroll__anchor__onclick(event, root) {
 	event.preventDefault()

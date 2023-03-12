@@ -1,6 +1,9 @@
 import { no_dom } from '../no_dom/index.js'
 /**
  * Scroll to the top of the parentElement
+ * @param {HTMLElement}el
+ * @param {boolean}[scrollWindow]
+ * @private
  */
 export function scrollTop(el, scrollWindow = true) {
 	if (no_dom) return el
@@ -10,4 +13,3 @@ export function scrollTop(el, scrollWindow = true) {
 	if (parentElement) scrollTop(parentElement, false)
 	return el
 }
-

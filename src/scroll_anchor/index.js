@@ -1,4 +1,9 @@
 import { dom_ } from '../dom_/index.js'
+/**
+ * @param {string}href
+ * @param {Element}[root]
+ * @private
+ */
 export function scroll_anchor(href, root) {
 	const href_target = dom_(href, root)
 	if (href_target) {
@@ -7,4 +12,3 @@ export function scroll_anchor(href, root) {
 	}
 }
 export { scroll_anchor as anchor__scroll }
-

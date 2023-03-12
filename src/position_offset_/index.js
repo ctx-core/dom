@@ -1,3 +1,8 @@
+/**
+ * @param {HTMLElement}el
+ * @returns {import('./index.d.ts').position_offset_T}
+ * @private
+ */
 export function position_offset_(el) {
 	let top = 0
 	let left = 0

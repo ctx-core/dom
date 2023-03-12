@@ -1,3 +1,7 @@
+/**
+ * @returns {string}
+ * @private
+ */
 export function baseURI_() {
 	let baseURI = document.baseURI
 	if (!baseURI) {

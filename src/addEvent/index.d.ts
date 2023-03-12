@@ -1,1 +1,5 @@
-export declare function addEvent(el:Element, type:string, fn:EventListenerOrEventListenerObject):void
+export declare function addEvent(
+	el:Element,
+	type:string,
+	fn:EventListenerOrEventListenerObject
+):void

@@ -1,5 +1,8 @@
 /**
  * Returns the `[left, top]` offset position of the given el
+ * @param {HTMLElement}el
+ * @returns {[number, number]}
+ * @private
  */
 export function position_offset_a_(el) {
 	let left = el.offsetLeft
@@ -13,5 +16,7 @@ export function position_offset_a_(el) {
 		top
 	]
 }
-export { position_offset_a_ as _position_offset_a1, position_offset_a_ as _xy__offset, }
-
+export {
+	position_offset_a_ as _position_offset_a1,
+	position_offset_a_ as _xy__offset,
+}
