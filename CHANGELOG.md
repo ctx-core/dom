@@ -1,5 +1,44 @@
 # @ctx-core/dom
 
+## 12.0.0
+
+### Major Changes
+
+- dom*: Breaking: generics: dom*<Out extends Element = Element>
+- obj*dom_a*:
+
+  Breaking: returns Node[]
+
+  - generics: <E extends Element = Element>
+
+- custom_event\_\_trigger: arguments: Breaking: custom_event_init?:CustomEventInit<T>
+- native_event\_\_trigger: arguments: Breaking: event_init?:EventInit = { bubbles: true }
+- dom*a*:
+
+  Breaking: returns array of elements
+
+  - generics: <E extends Element = Element>
+
+### Minor Changes
+
+- custom_event\_\_trigger: argument types:
+
+  node:Element
+  detail?:any
+
+- native_event\_\_trigger: argument types: node: Element
+- - class\_\_add: aliased by add_class
+- scroll_anchor: arguments: root?:Element
+- - class\_\_contains: aliased by class_contains
+- - class\_\_toggle: aliased by toggle_class
+- - class\_\_set: aliased by set_class
+- - class\_\_remove: aliased by remove_class
+- - onremove\_\_bind_dom
+
+### Patch Changes
+
+- - jsdocs
+
 ## 11.4.39
 
 ### Patch Changes
