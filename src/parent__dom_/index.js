@@ -5,11 +5,9 @@
  * @returns {Element} the first HTMLElement matching the selector
  * @private
  */
-export function dom_(
+export function parent__dom_(
 	selector,
 	parent = document
 ) {
-	return parent.querySelector(selector)
+	return parent.matches(selector) ? parent : parent.querySelector(selector)
 }
-export { dom_ as _dom, }
-
