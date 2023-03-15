@@ -1,5 +1,18 @@
 # @ctx-core/dom
 
+## 12.1.0
+
+### Minor Changes
+
+- - parent**el*a*,parent**dom*a*
+- - bind_dom_T
+- - bind_dom\_\_validate
+- - bind_dom
+- - el*a*: aliased by dom*a*
+- - parent**el\_,parent**dom\_
+- - el*a: aliased by dom*
+- - bind_dom\_\_register
+
 ## 12.0.0
 
 ### Major Changes
