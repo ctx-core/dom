@@ -1,4 +1,4 @@
-import { dom_ } from '../dom_/index.js'
+import { el_ } from '../el_/index.js'
 /**
  * The first matching HTMLElement from the selector
  *
@@ -12,7 +12,7 @@ export function obj_dom_(
 	parent
 ) {
 	if (typeof selector === 'object') return selector
-	return dom_(selector, parent)
+	return el_(selector, parent)
 }
 export { obj_dom_ as _dom2, }
 

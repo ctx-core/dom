@@ -1,11 +1,11 @@
-import { dom_ } from '../dom_/index.js'
+import { el_ } from '../el_/index.js'
 /**
  * @param {string}href
  * @param {Element}[root]
  * @private
  */
 export function scroll_anchor(href, root) {
-	const href_target = dom_(href, root)
+	const href_target = el_(href, root)
 	if (href_target) {
 		href_target.scrollIntoView()
 		window.location.hash = href

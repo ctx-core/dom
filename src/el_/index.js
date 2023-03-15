@@ -5,11 +5,13 @@
  * @returns {Element} the first HTMLElement matching the selector
  * @private
  */
-export function dom_(
+export function el_(
 	selector,
 	parent = document
 ) {
 	return parent.querySelector(selector)
 }
-export { dom_ as _dom, }
-
+export {
+	el_ as dom_,
+	el_ as _dom,
+}

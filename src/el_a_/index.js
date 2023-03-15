@@ -5,12 +5,16 @@
  * @returns {Element[]} a NodeList of the HTMLElements matching the selector
  * @private
  */
-export function parent__dom_a_(
+export function el_a_(
 	selector,
 	parent = document
 ) {
-	return [
-		...(parent.matches(selector) ? [parent] : []),
-		...parent.querySelectorAll(selector)
-	]
+	return Array.from(parent.querySelectorAll(selector))
+}
+export {
+	el_a_ as dom_a_,
+	el_a_ as _a1__dom,
+	el_a_ as __dom,
+	el_a_ as _node_list__dom,
+	el_a_ as _NL__dom,
 }
