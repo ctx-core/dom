@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 12.1.1
+
+### Patch Changes
+
+- bind_dom\_\_register: + validate bind_dom_id is present
+
 ## 12.1.0
 
 ### Minor Changes

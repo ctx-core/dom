@@ -42,6 +42,9 @@ export function bind_dom__register(
 		typeof bind_dom_or_bind_dom_id === 'string'
 		? bind_dom_or_bind_dom_id
 		: bind_dom_or_bind_dom_id.name
+	if (!bind_dom_id) {
+		throw new Error(`bind_dom_id is required: bind_dom_id: ${JSON.stringify(bind_dom_id)}`)
+	}
 	if (typeof bind_dom_or_bind_dom_id === 'function') {
 		bind_dom = bind_dom_or_bind_dom_id
 	}
