@@ -1,5 +1,12 @@
 # @ctx-core/dom
 
+## 12.1.2
+
+### Patch Changes
+
+- variable names: bind_dom_id=>bind_dom_name
+- bind_dom\_\_validate: error: fix: printing bind_dom_name
+
 ## 12.1.1
 
 ### Patch Changes
