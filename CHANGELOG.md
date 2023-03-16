@@ -1,5 +1,14 @@
 # @ctx-core/dom
 
+## 13.1.0
+
+### Minor Changes
+
+- - arg1**bind_dom_T,arg2**bind_dom_T
+- - arg1**id**bind_dom_T,arg2**id**bind_dom_T
+- id**bind_dom_T<E extends Element = Element> = arg1**id**bind_dom_T<E>|arg2**id\_\_bind_dom_T<E>
+- bind_dom_T<E extends Element = Element> = arg1**bind_dom_T<E>|arg2**bind_dom_T<E>
+
 ## 13.0.1
 
 ### Patch Changes
