@@ -1,5 +1,16 @@
 # @ctx-core/dom
 
+## 13.0.0
+
+### Major Changes
+
+- bind_dom**register: Breaking: arguments: accepts id**bind_dom_T instead of a bind_dom_T
+
+### Minor Changes
+
+- - id\__bind_dom_,bind*dom*
+- - id\_\_bind_dom_T
+
 ## 12.1.2
 
 ### Patch Changes
