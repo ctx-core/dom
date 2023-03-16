@@ -1,4 +1,4 @@
-import { be_ } from '@ctx-core/object'
+import { assign, be_ } from '@ctx-core/object'
 import { parent__el_a_ } from '../parent__el_a_/index.js'
 /** @typedef {import('@ctx-core/object').Be}Be */
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
@@ -12,11 +12,11 @@ const id__bind_dom_M_call_count_ = be_('id__bind_dom_M_call_count_', ()=>
 	new Map())
 /**
  * @param {Ctx}ctx
- * @param {Element}[parent]
+ * @param {Element|Document}[parent]
  */
 export function bind_dom(ctx, parent = document) {
 	/** @type {HTMLElement[]|SVGElement[]} */
-	const parent__el_a = parent__el_a_('[data-bind_dom]', parent)
+	const parent__el_a = /** @type {any} */parent__el_a_('[data-bind_dom]', parent)
 	const bind_dom_id_M_id__bind_dom = bind_dom_id_M_id__bind_dom_(ctx)
 	const id__bind_dom_M_call_count = id__bind_dom_M_call_count_(ctx)
 	for (const el of parent__el_a) {
@@ -36,10 +36,17 @@ export function bind_dom(ctx, parent = document) {
  * @private
  */
 export function id__bind_dom_(id, bind_dom) {
-	const id__bind_dom = (el, ctx)=>bind_dom(el, ctx)
-	id__bind_dom.id = id
-	id__bind_dom.toString = ()=>id
+	Object.defineProperty(id__bind_dom, 'id', {
+		value: id,
+		writable: false,
+	})
+	assign(id__bind_dom, {
+		toString() { return id }
+	})
 	return id__bind_dom
+	function id__bind_dom(el, ctx) {
+		bind_dom(el, ctx)
+	}
 }
 export {
 	id__bind_dom_ as bind_dom_,

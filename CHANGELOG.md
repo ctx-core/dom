@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 13.0.1
+
+### Patch Changes
+
+- id\__bind_dom_: id: read-only prop
+
 ## 13.0.0
 
 ### Major Changes
