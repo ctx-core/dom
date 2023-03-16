@@ -1,5 +1,16 @@
 # @ctx-core/dom
 
+## 13.2.0
+
+### Minor Changes
+
+- generics: + I extends string = string: { id: I }
+
+      id\__bind_dom_
+      id\__bind_dom_T
+      arg1\__id\__bind_dom_T
+      arg2\__id\__bind_dom_T
+
 ## 13.1.0
 
 ### Minor Changes

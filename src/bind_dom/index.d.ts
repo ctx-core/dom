@@ -3,11 +3,13 @@ export declare function bind_dom<
 	E extends Element = Element
 >(ctx:Ctx, parent?:E):void
 export declare function id__bind_dom_<
-	E extends Element = Element
->(id:string, bind_dom:arg1__bind_dom_T<E>):arg1__id__bind_dom_T<E>
+	E extends Element = Element,
+	I extends string = string
+>(id:I, bind_dom:arg1__bind_dom_T<E>):arg1__id__bind_dom_T<E, I>
 export declare function id__bind_dom_<
-	E extends Element = Element
->(id:string, bind_dom:arg2__bind_dom_T<E>):arg2__id__bind_dom_T<E>
+	E extends Element = Element,
+	I extends string = string
+>(id:I, bind_dom:arg2__bind_dom_T<E>):arg2__id__bind_dom_T<E, I>
 export {
 	id__bind_dom_ as bind_dom_,
 }
@@ -24,11 +26,14 @@ export type bind_dom_T<
 	E extends Element = Element
 > = arg1__bind_dom_T<E>|arg2__bind_dom_T<E>
 export type arg1__id__bind_dom_T<
-	E extends Element = Element
-> = ((el:E)=>void)&{ id:string }
+	E extends Element = Element,
+	I extends string = string
+> = ((el:E)=>void)&{ id:I }
 export type arg2__id__bind_dom_T<
-	E extends Element = Element
-> = ((el:E, ctx:Ctx)=>void)&{ id:string }
+	E extends Element = Element,
+	I extends string = string
+> = ((el:E, ctx:Ctx)=>void)&{ id:I }
 export type id__bind_dom_T<
-	E extends Element = Element
-> = arg1__id__bind_dom_T<E>|arg2__id__bind_dom_T<E>
+	E extends Element = Element,
+	I extends string = string
+> = arg1__id__bind_dom_T<E, I>|arg2__id__bind_dom_T<E, I>
