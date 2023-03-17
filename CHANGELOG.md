@@ -1,5 +1,20 @@
 # @ctx-core/dom
 
+## 13.3.0
+
+### Minor Changes
+
+- - id\_\_dom\_\_handler_T: aliased by id\_\_bind_dom_T
+- - arg2\_\_dom\_\_handler_T: aliased by arg2\_\_bind_dom_T
+- - id\_\_dom\_\_handler*: aliased by id\_\_bind_dom*
+- - dom\_\_handler_T: aliased by bind_dom_T
+- - arg1\_\_dom\_\_handler_T: aliased by arg1\_\_bind_dom_T
+- - dom\_\_bind: aliased by bind_dom
+- - dom\_\_onbind\_\_validate: aliased by bind_dom\_\_validate
+- - arg2\_\_id\_\_dom\_\_handler_T: aliased by arg2\_\_id\_\_dom\_\_handler_T
+- - arg1\_\_id\_\_dom\_\_handler_T: aliased by arg1\_\_id\_\_bind_dom_T
+- - dom\_\_onbind\_\_register: aliased by bind_dom\_\_register
+
 ## 13.2.0
 
 ### Minor Changes
