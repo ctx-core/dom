@@ -1,5 +1,15 @@
 # @ctx-core/dom
 
+## 13.4.0
+
+### Minor Changes
+
+- - dom\_\_unbind
+- - unbind\_\_dispatch
+- - unbind\_\_event_T
+- - unbind\_\_add
+- - unbind\_\_remove
+
 ## 13.3.0
 
 ### Minor Changes
