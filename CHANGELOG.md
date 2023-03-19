@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 14.0.1
+
+### Patch Changes
+
+- dom\_\_bind,dom\_\_unbind: variable rename: parent\_\_el_a=>el_a
+
 ## 14.0.0
 
 ### Major Changes
