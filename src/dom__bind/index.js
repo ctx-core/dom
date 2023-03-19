@@ -18,13 +18,13 @@ const id__dom__handler_M_call_count_ = be_('id__dom__handler_M_call_count_', ()=
  */
 export function dom__bind(ctx, parent = document) {
 	/** @type {HTMLElement[]|SVGElement[]} */
-	const parent__el_a = /** @type {any} */parent__el_a_('[data-onbind]', parent)
+	const el_a = /** @type {any} */parent__el_a_('[data-onbind]', parent)
 	const dom__handler__id_M_id__dom__handler =
 		dom__handler__id_M_id__dom__handler_(ctx)
 	const id__dom__handler_M_call_count =
 		id__dom__handler_M_call_count_(ctx)
-	for (let parent__el_a__i = 0; parent__el_a__i < parent__el_a.length; parent__el_a__i++) {
-		const el = parent__el_a[parent__el_a__i]
+	for (let el_a__i = 0; el_a__i < el_a.length; el_a__i++) {
+		const el = el_a[el_a__i]
 		if (el[dom__bind__called_sym]) continue
 		const dom__handler__id = el.dataset.onbind
 		const id__dom__handler =
@@ -45,12 +45,12 @@ export function dom__bind(ctx, parent = document) {
  * @param {Element|Document}[parent]
  */
 export function dom__unbind(ctx, parent = document) {
-	const parent__el_a = /** @type {any} */parent__el_a_('[data-onbind]', parent)
+	const el_a = /** @type {any} */parent__el_a_('[data-onbind]', parent)
 	const event = new CustomEvent('unbind', {
 		detail: { ctx }
 	})
-	for (let parent__el_a__i = 0; parent__el_a__i < parent__el_a.length; parent__el_a__i++) {
-		const el = parent__el_a[parent__el_a__i]
+	for (let parent__el_a__i = 0; parent__el_a__i < el_a.length; parent__el_a__i++) {
+		const el = el_a[parent__el_a__i]
 		el.dispatchEvent(event)
 	}
 }
