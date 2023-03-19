@@ -40,9 +40,6 @@ export function dom__bind(ctx, parent = document) {
 		el[dom__bind__called_sym] = true
 	}
 }
-export {
-	dom__bind as bind_dom,
-}
 /**
  * @param {Ctx}ctx
  * @param {Element|Document}[parent]
@@ -100,10 +97,6 @@ export function id__dom__handler_(id, dom__handler) {
 		dom__handler(el, ctx)
 	}
 }
-export {
-	id__dom__handler_ as id__bind_dom_,
-	id__dom__handler_ as bind_dom_,
-}
 /**
  * @param {Ctx}ctx
  * @param {id__dom__handler_T|string}id__dom__handler_or_dom__handler__id
@@ -129,9 +122,6 @@ export function dom__onbind__register(
 	dom__handler__id_M_id__dom__handler_(ctx).set(dom__handler__id, id__dom__handler)
 	id__dom__handler_M_call_count_(ctx).set(id__dom__handler, 0)
 }
-export {
-	dom__onbind__register as bind_dom__register,
-}
 /**
  * @param {Ctx}ctx
  * @param {string}[dom__handler__id]
@@ -154,9 +144,6 @@ export function dom__onbind__validate(ctx, dom__handler__id) {
 			}
 		}
 	}
-}
-export {
-	dom__onbind__validate as bind_dom__validate
 }
 /**
  * @param {string}fn_name

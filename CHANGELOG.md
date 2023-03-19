@@ -1,5 +1,23 @@
 # @ctx-core/dom
 
+## 14.0.0
+
+### Major Changes
+
+- dom\_\_bind: remove aliases:
+
+  - bind_dom
+  - unbind_dom
+  - id\__bind_dom_
+  - bind*dom*
+  - bind_dom\_\_register
+  - bind_dom\_\_validate
+  - arg1\_\_bind_dom_T
+  - arg2\_\_bind_dom_T
+  - bind_dom_T
+  - arg1**id**bind_dom_T
+  - arg2**id**bind_dom_T
+
 ## 13.4.0
 
 ### Minor Changes
