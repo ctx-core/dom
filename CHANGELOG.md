@@ -1,5 +1,14 @@
 # @ctx-core/dom
 
+## 14.0.2
+
+### Patch Changes
+
+- @ctx-core/function: ^21.12.1 -> ^21.12.2
+- Updated dependencies
+  - @ctx-core/data@7.1.24
+  - @ctx-core/object@27.1.7
+
 ## 14.0.1
 
 ### Patch Changes
