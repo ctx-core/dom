@@ -1,5 +1,13 @@
 # @ctx-core/dom
 
+## 14.0.8
+
+### Patch Changes
+
+- ∋ globalThis**prop**ensure
+- Updated dependencies
+  - @ctx-core/object@27.3.1
+
 ## 14.0.7
 
 ### Patch Changes

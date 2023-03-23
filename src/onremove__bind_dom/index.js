@@ -1,13 +1,9 @@
-const el_M_mutation_observer__sym = Symbol.for('el_M_mutation_observer')
-if (!globalThis[el_M_mutation_observer__sym]) {
-	globalThis[el_M_mutation_observer__sym] = new WeakMap()
-}
-/** @type {WeakMap<Element, MutationObserver>} */
-const el_M_mutation_observer =
-	globalThis[el_M_mutation_observer__sym]
+import { globalThis__prop__ensure } from '@ctx-core/object'
+const el_M_mutation_observer = globalThis__prop__ensure(
+	Symbol.for('el_M_mutation_observer'), ()=>new WeakMap())
 /**
  * @param {Element}el
- * @param {(el:Element, mutation)=>void}fn
+ * @param {(el:Element, mutation:MutationRecord)=>void}fn
  */
 export function onremove__bind_dom(el, fn) {
 	if (!el.parentNode) {
