@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 14.1.0
+
+### Minor Changes
+
+- closest: + generic return type
+
 ## 14.0.9
 
 ### Patch Changes
