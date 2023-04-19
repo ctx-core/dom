@@ -1,5 +1,16 @@
 # @ctx-core/dom
 
+## 14.1.31
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/data@7.1.54
+  - @ctx-core/function@21.17.19
+  - @ctx-core/html@11.2.30
+  - @ctx-core/object@27.4.23
+
 ## 14.1.30
 
 ### Patch Changes
