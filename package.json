@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "14.1.31",
+	"version": "14.1.32",
 	"description": "ctx-core dom",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 	"dependencies": {
 		"@ctx-core/data": "^7.1.54",
 		"@ctx-core/function": "^21.17.19",
-		"@ctx-core/html": "^11.2.30",
+		"@ctx-core/html": "^11.3.0",
 		"@ctx-core/object": "^27.4.23"
 	},
 	"devDependencies": {
