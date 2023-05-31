@@ -1,5 +1,13 @@
 # @ctx-core/dom
 
+## 14.1.41
+
+### Patch Changes
+
+- @ctx-core/object: ^27.5.0 -> ^27.6.0
+- Updated dependencies
+  - @ctx-core/html@11.3.5
+
 ## 14.1.40
 
 ### Patch Changes
