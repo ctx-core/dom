@@ -7,11 +7,15 @@ const dom__bind__called_sym = Symbol.for('dom__bind__called')
 /** @typedef {import('./index.d.ts').id__dom__handler_T}id__dom__handler_T */
 /** @typedef {import('./index.d.ts').unbind__event_T}unbind__event_T */
 /** @type {Be<Map<string, id__dom__handler_T>>} */
-const dom__handler__id_M_id__dom__handler_ = be_('dom__handler__id_M_id__dom__handler_', ()=>
-	new Map())
+const dom__handler__id_M_id__dom__handler_ = be_(
+	'dom__handler__id_M_id__dom__handler',
+	()=>
+		new Map())
 /** @type {Be<Map<id__dom__handler_T, number>>} */
-const id__dom__handler_M_call_count_ = be_('id__dom__handler_M_call_count_', ()=>
-	new Map())
+const id__dom__handler_M_call_count_ = be_(
+	'id__dom__handler_M_call_count',
+	()=>
+		new Map())
 /**
  * @param {Ctx}ctx
  * @param {Element|Document}[parent]
@@ -73,7 +77,7 @@ export function unbind__remove(el, onunbind) {
  * @param {Ctx}[ctx]
  */
 export function unbind__dispatch(el, ctx) {
-  const event = new CustomEvent('unbind', {
+	const event = new CustomEvent('unbind', {
 		detail: { ctx }
 	})
 	el.dispatchEvent(event)
@@ -149,7 +153,10 @@ export function dom__onbind__validate(ctx, dom__handler__id) {
  * @param {string}fn_name
  * @param {string}dom__handler__id
  */
-function dom__onbind__register__validate__throw(fn_name, dom__handler__id) {
+function dom__onbind__register__validate__throw(
+	fn_name,
+	dom__handler__id
+) {
 	throw new Error(`${fn_name}: dom__handler__id ${
 		JSON.stringify(dom__handler__id)} not registered: ${''
 	}use dom__onbind__register or make sure the data-onbind html attribute is correct`)

@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 14.1.60
+
+### Patch Changes
+
+- nanostores: + id
+
 ## 14.1.59
 
 ### Patch Changes
