@@ -1,5 +1,5 @@
 export function has_dom_() {
-	return typeof window === 'object'
+	return typeof globalThis['window'] === 'object'
 }
 export {
 	has_dom_ as _has_dom,

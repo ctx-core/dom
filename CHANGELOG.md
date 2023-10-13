@@ -1,5 +1,15 @@
 # @ctx-core/dom
 
+## 14.2.1
+
+### Patch Changes
+
+- fix: astro "Browser APIs are not available on the server" error: ∋ globalThis['window']:
+
+      has_dom_
+      hostname_
+      no_dom_
+
 ## 14.2.0
 
 ### Minor Changes
