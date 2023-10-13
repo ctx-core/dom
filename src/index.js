@@ -45,4 +45,4 @@ export * from './scrollTop/index.js'
 export * from './scrollToY/index.js'
 export * from './native_event__trigger/index.js'
 export * from './url_hash_str_/index.js'
-
+export * from './window__ctx__set/index.js'

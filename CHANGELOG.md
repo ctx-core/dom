@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 14.2.0
+
+### Minor Changes
+
+- - window**ctx**set
+
 ## 14.1.70
 
 ### Patch Changes
