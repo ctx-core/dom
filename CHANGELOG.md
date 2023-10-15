@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 14.2.3
+
+### Patch Changes
+
+- window**ctx**set: node: fix import
+
 ## 14.2.2
 
 ### Patch Changes

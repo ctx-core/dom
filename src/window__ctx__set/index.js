@@ -1,5 +1,5 @@
 import { flatten, isArray } from '@ctx-core/function'
-import { has_dom } from '../has_dom'
+import { has_dom } from '../has_dom/index.js'
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('@ctx-core/object').MapCtx}MapCtx */
 /** @typedef {import('@ctx-core/object').NestedMapCtx}NestedMapCtx */
