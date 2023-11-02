@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 14.3.3
+
+### Patch Changes
+
+- fragment\_: fix: ssr renderers sometimes check for DOM logic, which fails the build: use globalThis['document'] to avoid the error
+
 ## 14.3.2
 
 ### Patch Changes

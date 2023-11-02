@@ -1,3 +1,4 @@
+const document = globalThis['document']
 /**
  * @param {string}html
  * @returns {DocumentFragment}
