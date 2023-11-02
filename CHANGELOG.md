@@ -1,5 +1,15 @@
 # @ctx-core/dom
 
+## 15.0.0
+
+### Major Changes
+
+- fragment*: only returns a DocumentFragment: creating a DocumentFragment with html has been moved to html\_\_fragment*
+
+### Minor Changes
+
+- html\__fragment_: moved from fragment\_
+
 ## 14.3.3
 
 ### Patch Changes
