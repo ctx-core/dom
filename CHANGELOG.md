@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 15.0.3
+
+### Patch Changes
+
+- fragment\_: globalThis['document'] is called within function
+
 ## 15.0.2
 
 ### Patch Changes
