@@ -1,5 +1,16 @@
 # @ctx-core/dom
 
+## 15.1.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/data@7.2.2
+  - @ctx-core/function@21.21.2
+  - @ctx-core/html@11.6.2
+  - @ctx-core/object@30.1.2
+
 ## 15.1.1
 
 ### Patch Changes
