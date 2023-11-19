@@ -1,21 +1,19 @@
 import { assign, be_ } from '@ctx-core/object'
 import { parent__el_a_ } from '../parent__el_a_/index.js'
 const dom__bind__called_sym = Symbol.for('dom__bind__called')
-/** @typedef {import('@ctx-core/object').Be}Be */
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('./index.d.ts').dom__handler_T}dom__handler_T */
-/** @typedef {import('./index.d.ts').id__dom__handler_T}id__dom__handler_T */
-/** @typedef {import('./index.d.ts').unbind__event_T}unbind__event_T */
+/** @typedef {import('@ctx-core/object').Be} */
+/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {import('./index.d.ts').dom__handler_T} */
+/** @typedef {import('./index.d.ts').id__dom__handler_T} */
+/** @typedef {import('./index.d.ts').unbind__event_T} */
 /** @type {Be<Map<string, id__dom__handler_T>>} */
-const dom__handler__id_M_id__dom__handler_ = be_(
-	'dom__handler__id_M_id__dom__handler',
-	()=>
-		new Map())
+const dom__handler__id_M_id__dom__handler_ = be_(()=>
+	new Map()
+).config({ id: 'dom__handler__id_M_id__dom__handler' })
 /** @type {Be<Map<id__dom__handler_T, number>>} */
-const id__dom__handler_M_call_count_ = be_(
-	'id__dom__handler_M_call_count',
-	()=>
-		new Map())
+const id__dom__handler_M_call_count_ = be_(()=>
+	new Map()
+).config({ id: 'id__dom__handler_M_call_count' })
 /**
  * @param {Ctx}ctx
  * @param {Element|Document}[parent]
@@ -94,7 +92,9 @@ export function id__dom__handler_(id, dom__handler) {
 		writable: false,
 	})
 	assign(id__dom__handler, {
-		toString() { return id }
+		toString() {
+			return id
+		}
 	})
 	return id__dom__handler
 	function id__dom__handler(el, ctx) {
@@ -113,8 +113,8 @@ export function dom__onbind__register(
 ) {
 	const dom__handler__id =
 		typeof id__dom__handler_or_dom__handler__id === 'string'
-		? id__dom__handler_or_dom__handler__id
-		: id__dom__handler_or_dom__handler__id.id
+			? id__dom__handler_or_dom__handler__id
+			: id__dom__handler_or_dom__handler__id.id
 	if (!dom__handler__id) {
 		throw new Error(
 			`dom__onbind__register: id__dom__handler.id or dom__handler__id is required: dom__handler__id: ${
