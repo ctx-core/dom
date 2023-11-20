@@ -7,13 +7,13 @@ const dom__bind__called_sym = Symbol.for('dom__bind__called')
 /** @typedef {import('./index.d.ts').id__dom__handler_T} */
 /** @typedef {import('./index.d.ts').unbind__event_T} */
 /** @type {Be<Map<string, id__dom__handler_T>>} */
-const dom__handler__id_M_id__dom__handler_ = be_(()=>
-	new Map()
-).config({ id: 'dom__handler__id_M_id__dom__handler' })
+const dom__handler__id_M_id__dom__handler_ = be_(
+	()=>new Map(),
+	{ id: 'dom__handler__id_M_id__dom__handler' })
 /** @type {Be<Map<id__dom__handler_T, number>>} */
-const id__dom__handler_M_call_count_ = be_(()=>
-	new Map()
-).config({ id: 'id__dom__handler_M_call_count' })
+const id__dom__handler_M_call_count_ = be_(
+	()=>new Map(),
+	{ id: 'id__dom__handler_M_call_count' })
 /**
  * @param {Ctx}ctx
  * @param {Element|Document}[parent]
