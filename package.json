@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "15.1.22",
+	"version": "15.1.23",
 	"description": "ctx-core dom",
 	"keywords": [
 		"ctx-core",
@@ -88,10 +88,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/data": "^7.2.22",
-		"@ctx-core/function": "^21.22.17",
-		"@ctx-core/html": "^11.6.21",
-		"@ctx-core/object": "^31.1.3"
+		"@ctx-core/data": "^7.2.23",
+		"@ctx-core/function": "^21.22.18",
+		"@ctx-core/html": "^11.6.22",
+		"@ctx-core/object": "^31.1.4"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
