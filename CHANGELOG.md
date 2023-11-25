@@ -1,5 +1,17 @@
 # @ctx-core/dom
 
+## 15.1.26
+
+### Patch Changes
+
+- tsx: ^4.4.0 -> ^4.5.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/data@7.2.26
+  - @ctx-core/function@21.22.21
+  - @ctx-core/html@11.6.25
+  - @ctx-core/object@31.1.7
+
 ## 15.1.25
 
 ### Patch Changes
