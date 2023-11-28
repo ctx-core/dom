@@ -1,5 +1,14 @@
 # @ctx-core/dom
 
+## 15.1.33
+
+### Patch Changes
+
+- @ctx-core/html: ^11.6.31 -> ^11.6.32
+- @ctx-core/object: ^31.1.13 -> ^31.1.14
+- @ctx-core/data: ^7.2.32 -> ^7.2.33
+- @ctx-core/function: ^21.22.27 -> ^21.22.28
+
 ## 15.1.32
 
 ### Patch Changes
