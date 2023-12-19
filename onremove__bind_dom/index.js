@@ -1,4 +1,4 @@
-import { globalThis__prop__ensure } from '@ctx-core/object'
+import { globalThis__prop__ensure } from 'ctx-core/object'
 const el_M_mutation_observer = globalThis__prop__ensure(
 	Symbol.for('el_M_mutation_observer'), ()=>new WeakMap())
 /**

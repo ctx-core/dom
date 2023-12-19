@@ -1,11 +1,9 @@
-import { assign, be_ } from '@ctx-core/object'
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
+import { be_ } from 'ctx-core/be'
+import { assign } from 'ctx-core/object'
 import { parent__el_a_ } from '../parent__el_a_/index.js'
 const dom__bind__called_sym = Symbol.for('dom__bind__called')
-/** @typedef {import('@ctx-core/object').Be} */
-/** @typedef {import('@ctx-core/object').Ctx} */
-/** @typedef {import('./index.d.ts').dom__handler_T} */
-/** @typedef {import('./index.d.ts').id__dom__handler_T} */
-/** @typedef {import('./index.d.ts').unbind__event_T} */
 /** @type {Be<Map<string, id__dom__handler_T>>} */
 const dom__handler__id_M_id__dom__handler_ = be_(
 	()=>new Map(),

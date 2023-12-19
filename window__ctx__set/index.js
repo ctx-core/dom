@@ -1,8 +1,6 @@
-import { flatten, isArray } from '@ctx-core/function'
+/// <reference types="ctx-core" />
+import { flatten, isArray } from 'ctx-core/function'
 import { has_dom } from '../has_dom/index.js'
-/** @typedef {import('@ctx-core/object').Ctx} */
-/** @typedef {import('@ctx-core/object').BeMap} */
-/** @typedef {import('@ctx-core/object').NestedMapCtx} */
 /**
  * @param {Ctx}ctx
  */
@@ -13,7 +11,7 @@ export function window__ctx__set(ctx) {
 			const ctx = _key ? ctx_or_key : window.ctx
 			const key = _key ? _key : /** @type {string} */ctx_or_key
 			if (isArray(ctx)) {
-				for (const _ctx of flatten(/** @type {MapCtx} */ctx)) {
+				for (const _ctx of flatten(/** @type {Ctx} */ctx)) {
 					const ctx = _ctx
 					return ctx.get(key)
 				}
@@ -25,14 +23,14 @@ export function window__ctx__set(ctx) {
 			const ctx = (_key && ctx_or_key) ? ctx_or_key : window.ctx
 			const key = _key ? _key : /** @type {string} */ctx_or_key
 			if (isArray(ctx)) {
-				for (const _ctx of flatten(/** @type {NestedMapCtx} */ctx)) {
-					const ctx = /** @type {MapCtx} */_ctx
+				for (const _ctx of flatten(/** @type {Ctx} */ctx)) {
+					const ctx = /** @type {Ctx} */_ctx
 					if (ctx.has(key)) {
 						return ctx.get(key)
 					}
 				}
 			} else {
-				return (/** @type {MapCtx} */ctx).get(key)
+				return (/** @type {Ctx} */ctx).get(key)
 			}
 		}
 	}

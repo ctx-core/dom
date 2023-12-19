@@ -1,4 +1,4 @@
-import { assign } from '@ctx-core/object'
+import { assign } from 'ctx-core/object'
 /**
  * @param {Element}node
  * @param {string}event_name

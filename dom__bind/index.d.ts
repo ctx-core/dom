@@ -1,4 +1,4 @@
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 export declare function dom__bind<
 	E extends Element = Element
 >(ctx:Ctx, parent?:E):void

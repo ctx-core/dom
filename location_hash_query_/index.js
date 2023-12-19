@@ -1,4 +1,4 @@
-import { assign } from '@ctx-core/object'
+import { assign } from 'ctx-core/object'
 import { url_hash_str_ } from '../url_hash_str_/index.js'
 /**
  * Returns a query__hash__location
