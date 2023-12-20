@@ -1,4 +1,4 @@
-import { el_ } from '../el_/index.js'
+import { el_ } from '../el/index.js'
 /**
  * @param {string}href
  * @param {Element}[root]

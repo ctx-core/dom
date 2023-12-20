@@ -1,5 +1,5 @@
 import { assign } from 'ctx-core/object'
-import { url_hash_str_ } from '../url_hash_str_/index.js'
+import { url_hash_str_ } from '../url_hash_str/index.js'
 /**
  * Returns a query__hash__location
  * {Record<string, (value:any, key?:string)=>number>}transform_o

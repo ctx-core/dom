@@ -1,6 +1,6 @@
 /**
  * @param {HTMLElement}el
- * @returns {import('../bounding_client_rect_/index.js').BoundingClientRect}
+ * @returns {import('../bounding_client_rect/index.js').BoundingClientRect}
  * @private
  */
 export function offset_bcr_(el) {

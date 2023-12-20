@@ -1,4 +1,4 @@
-import { el_a_ } from '../el_a_/index.js'
+import { el_a_ } from '../el_a/index.js'
 /**
  * Match `el` to `selector`.
  * @param {Node} el

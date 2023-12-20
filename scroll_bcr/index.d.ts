@@ -1,4 +1,4 @@
-import type { BoundingClientRect } from '../bounding_client_rect_/index.js'
+import type { BoundingClientRect } from '../bounding_client_rect/index.js'
 export declare function scroll_bcr_(
 	node:HTMLElement,
 	scroll_node?:HTMLElement

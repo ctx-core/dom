@@ -1,4 +1,4 @@
-/** @typedef {import('../bounding_client_rect_/index.d.ts').BoundingClientRect} */
+/** @typedef {import('../bounding_client_rect/index.d.ts').BoundingClientRect} */
 /**
  * @param {HTMLElement}node
  * @param {HTMLElement}[scroll_node]
