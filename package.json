@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "15.1.68",
+	"version": "15.1.69",
 	"description": "ctx-core dom",
 	"keywords": [
 		"ctx-core",
@@ -86,7 +86,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"ctx-core": "^5.4.1"
+		"ctx-core": "^5.5.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
