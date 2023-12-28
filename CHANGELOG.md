@@ -1,5 +1,28 @@
 # @ctx-core/dom
 
+## 15.2.0
+
+### Minor Changes
+
+- type:
+
+      generics: + ns_T extends string = '':
+      ctx:Ctx_wide_T<ns_T> instead of ctx:Ctx:
+      	dom__bind
+      	dom__unbind
+      	unbind__add
+      	unbind__remove
+      	unbind__dispatch
+      	id__dom__handler_
+      	dom__onbind__register
+      	dom__onbind__register
+      	dom__onbind__validate
+      	arg2__dom__handler_T
+      	dom__handler_T
+      	arg2__id__dom__handler_T
+      	id__dom__handler_T
+      	unbind__event_T
+
 ## 15.1.69
 
 ### Patch Changes
