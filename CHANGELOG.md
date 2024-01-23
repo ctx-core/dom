@@ -1,5 +1,19 @@
 # @ctx-core/dom
 
+## 15.3.0
+
+### Minor Changes
+
+- .:
+
+      + px_rem_
+      + px_rem_
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@5.26.0
+
 ## 15.2.39
 
 ### Patch Changes
