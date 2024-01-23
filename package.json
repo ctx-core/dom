@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "15.3.2",
+	"version": "15.3.3",
 	"description": "ctx-core dom",
 	"keywords": [
 		"ctx-core",
@@ -61,6 +61,8 @@
 		"parent__el_a",
 		"position_offset",
 		"position_offset_a",
+		"px_rem",
+		"rem_px",
 		"scroll__anchor__onclick",
 		"scroll_anchor",
 		"scroll_bcr",
