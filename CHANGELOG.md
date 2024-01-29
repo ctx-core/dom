@@ -1,5 +1,13 @@
 # @ctx-core/dom
 
+## 15.3.15
+
+### Patch Changes
+
+- package.json: fix: include dom directory
+- Updated dependencies
+  - ctx-core@5.35.1
+
 ## 15.3.14
 
 ### Patch Changes
