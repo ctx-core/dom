@@ -1,5 +1,13 @@
 # @ctx-core/dom
 
+## 15.3.16
+
+### Patch Changes
+
+- package.json: fix: files
+
+  index.d.ts: fix: exports
+
 ## 15.3.15
 
 ### Patch Changes

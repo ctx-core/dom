@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/dom",
-	"version": "15.3.15",
+	"version": "15.3.16",
 	"description": "ctx-core dom",
 	"keywords": [
 		"ctx-core",
@@ -70,7 +70,6 @@
 		"scrollTop",
 		"scrollToY",
 		"url_hash_str",
-		"../ctx-core/all/window__ctx__set",
 		"_types"
 	],
 	"types": "./index.d.ts",
