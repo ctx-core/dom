@@ -13,7 +13,7 @@ const id__dom__handler_M_call_count_ = be_(
 	()=>new Map(),
 	{ id: 'id__dom__handler_M_call_count' })
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {Element|Document}[parent]
  */
 export function dom__bind(ctx, parent = document) {
@@ -41,7 +41,7 @@ export function dom__bind(ctx, parent = document) {
 	}
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {Element|Document}[parent]
  */
 export function dom__unbind(ctx, parent = document) {
@@ -70,7 +70,7 @@ export function unbind__remove(el, onunbind) {
 }
 /**
  * @param {Element}el
- * @param {Ctx}[ctx]
+ * @param {ctx_T}[ctx]
  */
 export function unbind__dispatch(el, ctx) {
 	const event = new CustomEvent('unbind', {
@@ -100,7 +100,7 @@ export function id__dom__handler_(id, dom__handler) {
 	}
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {id__dom__handler_T|string}id__dom__handler_or_dom__handler__id
  * @param {id__dom__handler_T}[id__dom__handler]
  */
@@ -125,7 +125,7 @@ export function dom__onbind__register(
 	id__dom__handler_M_call_count_(ctx).set(id__dom__handler, 0)
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {string}[dom__handler__id]
  */
 export function dom__onbind__validate(ctx, dom__handler__id) {
