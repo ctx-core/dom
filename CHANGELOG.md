@@ -1,5 +1,13 @@
 # @ctx-core/dom
 
+## 15.3.53
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 15.3.52
 
 ### Patch Changes
