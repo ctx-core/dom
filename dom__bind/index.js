@@ -1,17 +1,17 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { be_ } from 'ctx-core/be'
+import { id_be_ } from 'ctx-core/be'
 import { assign } from 'ctx-core/object'
 import { parent__el_a_ } from '../parent__el_a/index.js'
 const dom__bind__called_sym = Symbol.for('dom__bind__called')
 /** @type {Be<Map<string, id__dom__handler_T>>} */
-const dom__handler__id_M_id__dom__handler_ = be_(
-	()=>new Map(),
-	{ id: 'dom__handler__id_M_id__dom__handler' })
+const dom__handler__id_M_id__dom__handler_ = id_be_(
+	'dom__handler__id_M_id__dom__handler',
+	()=>new Map())
 /** @type {Be<Map<id__dom__handler_T, number>>} */
-const id__dom__handler_M_call_count_ = be_(
-	()=>new Map(),
-	{ id: 'id__dom__handler_M_call_count' })
+const id__dom__handler_M_call_count_ = id_be_(
+	'id__dom__handler_M_call_count',
+	()=>new Map())
 /**
  * @param {ctx_T}ctx
  * @param {Element|Document}[parent]
