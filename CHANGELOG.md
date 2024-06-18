@@ -1,5 +1,11 @@
 # @ctx-core/dom
 
+## 15.3.90
+
+### Patch Changes
+
+- ctx-core: ^7.2.19 -> ^7.2.20
+
 ## 15.3.89
 
 ### Patch Changes
