@@ -1,5 +1,26 @@
 # @ctx-core/dom
 
+## 15.3.103
+
+### Patch Changes
+
+- c8: ^10.1.3 -> ^11.0.0
+- check-dts: ^0.8.2 -> ^0.9.0
+- tsx: ^4.20.6 -> ^4.21.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@7.2.33
+
 ## 15.3.102
 
 ### Patch Changes
@@ -2283,7 +2304,6 @@
 ### Major Changes
 
 - dom\_\_bind: remove aliases:
-
   - bind_dom
   - unbind_dom
   - id\__bind_dom_
@@ -2392,7 +2412,6 @@
 - obj*dom_a*:
 
   Breaking: returns Node[]
-
   - generics: <E extends Element = Element>
 
 - custom_event\_\_trigger: arguments: Breaking: custom_event_init?:CustomEventInit<T>
@@ -2400,7 +2419,6 @@
 - dom*a*:
 
   Breaking: returns array of elements
-
   - generics: <E extends Element = Element>
 
 ### Minor Changes
